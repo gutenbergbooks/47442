@@ -1,0 +1,3666 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="nl">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Parodieën</title>
+
+<style type="text/css">
+
+body
+{
+font-family: "Times New Roman", Times, serif;
+font-size: 100%;
+line-height: 1.2em;
+padding: 1.58em 16%;
+text-align: left;
+}
+/* Titlepage */
+.titlePage
+{
+border: #DDDDDD 2px solid;
+margin: 3em 0% 7em 0%;
+padding: 5em 10% 6em 10%;
+text-align: center;
+}
+.titlePage .docTitle
+{
+line-height: 3.5em;
+margin: 2em 0% 2em 0%;
+font-weight: bold;
+}
+.titlePage .docTitle .mainTitle
+{
+font-size: 1.8em;
+}
+.titlePage .docTitle .subTitle, .titlePage .docTitle .seriesTitle, .titlePage .docTitle .volumeTitle
+{
+font-size: 1.44em;
+}
+.titlePage .byline
+{
+margin: 2em 0% 2em 0%;
+font-size:1.2em;
+line-height:1.72em;
+}
+.titlePage .byline .docAuthor
+{
+font-size: 1.2em;
+font-weight: bold;
+}
+.titlePage .figure
+{
+margin: 2em 0% 2em 0%;
+margin-left: auto;
+margin-right: auto;
+}
+.titlePage .docImprint
+{
+margin: 4em 0% 0em 0%;
+font-size: 1.2em;
+line-height: 1.72em;
+}
+.titlePage .docImprint .docDate
+{
+font-size: 1.2em;
+font-weight: bold;
+}
+/* End Titlepage */
+.transcribernote
+{
+background-color:#DDE;
+border:black 1px dotted;
+color:#000;
+font-family:sans-serif;
+font-size:80%;
+margin:2em 5%;
+padding:1em;
+}
+.advertisment
+{
+background-color:#FFFEE0;
+border:black 1px dotted;
+color:#000;
+margin:2em 5%;
+padding:1em;
+}
+.correctiontable
+{
+width: 75%;
+}
+.width20
+{
+width: 20%;
+}
+.width40
+{
+width: 40%;
+}
+.indextoc
+{
+text-align: center;
+}
+.div0
+{
+padding-top: 5.6em;
+}
+.div1
+{
+padding-top: 4.8em;
+}
+.index
+{
+font-size: 80%;
+}
+.div2
+{
+padding-top: 3.6em;
+}
+.div3, .div4, .div5
+{
+padding-top: 2.4em;
+}
+.footnotes .body,
+.footnotes .div1
+{
+padding: 0;
+}
+.fnarrow
+{
+color: #AAAAAA;
+font-weight: bold;
+text-decoration: none;
+}
+.apparatusnote
+{
+text-decoration: none;
+}
+table.alignedtext, table.alignedverse
+{
+border-collapse: collapse;
+}
+table.alignedtext td
+{
+vertical-align: top;
+width: 50%;
+}
+table.alignedverse
+{
+vertical-align: top;
+}
+table.alignedtext td.first, table.alignedverse td.first
+{
+border-width: 0 0.2px 0 0;
+border-color: gray;
+border-style: solid;
+padding-right: 10px;
+}
+table.alignedtext td.second, table.alignedverse td.second
+{
+padding-left: 10px;
+}
+table.alignedverse td.first, table.alignedverse td.second
+{
+width: 45%;
+}
+table.alignedverse td.lineNumbers
+{
+width: 10%;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4
+{
+clear: both;
+font-style: normal;
+text-transform: none;
+}
+h3, .h3
+{
+font-size:1.2em;
+line-height:1.2em;
+}
+h3.label
+{
+font-size:1em;
+line-height:1.2em;
+margin-bottom:0;
+}
+h4, .h4
+{
+font-size:1em;
+line-height:1.2em;
+}
+.alignleft
+{
+text-align:left;
+}
+.alignright
+{
+text-align:right;
+}
+.alignblock
+{
+text-align:justify;
+}
+p.tb, hr.tb
+{
+margin-top: 1.6em;
+margin-bottom: 1.6em;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+p.argument, p.note, p.tocArgument
+{
+font-size:0.9em;
+line-height:1.2em;
+text-indent:0;
+}
+p.argument, p.tocArgument
+{
+margin:1.58em 10%;
+}
+p.tocPart
+{
+margin:1.58em 0%;
+font-variant: small-caps;
+}
+p.tocChapter
+{
+margin:1.58em 0%;
+}
+p.tocSection
+{
+margin:0.7em 5%;
+}
+.opener, .address
+{
+margin-top: 1.6em;
+margin-bottom: 1.6em;
+}
+.addrline
+{
+margin-top: 0;
+margin-bottom: 0;
+}
+.dateline
+{
+margin-top: 1.6em;
+margin-bottom: 1.6em;
+text-align: right;
+}
+.salute
+{
+margin-top: 1.6em;
+margin-left: 3.58em;
+text-indent: -2em;
+}
+.signed
+{
+margin-top: 1.6em;
+margin-left: 3.58em;
+text-indent: -2em;
+}
+.epigraph
+{
+font-size:0.9em;
+line-height:1.2em;
+width: 60%;
+margin-left: auto;
+}
+.epigraph span.bibl
+{
+display: block;
+text-align: right;
+}
+.trailer
+{
+clear: both;
+padding-top: 2.4em;
+padding-bottom: 1.6em;
+}
+.figure
+{
+margin-left: auto;
+margin-right: auto;
+}
+.floatLeft
+{
+float:left;
+margin:10px 10px 10px 0;
+}
+.floatRight
+{
+float:right;
+margin:10px 0 10px 10px;
+}
+p.figureHead
+{
+font-size:100%;
+text-align:center;
+}
+.figAnnotation
+{
+font-size:80%;
+position:relative;
+margin: 0 auto; /* center this */
+}
+.figTopLeft, .figBottomLeft
+{
+float: left;
+}
+.figTop, .figBottom
+{
+}
+.figTopRight, .figBottomRight
+{
+float: right;
+}
+.hangq
+{
+text-indent: -0.32em;
+}
+.hangqq
+{
+text-indent: -0.40em;
+}
+.hangqqq
+{
+text-indent: -0.71em;
+}
+.figure p
+{
+font-size:80%;
+margin-top:0;
+text-align:center;
+}
+img
+{
+border-width:0;
+}
+p.smallprint,li.smallprint
+{
+color:#666666;
+font-size:80%;
+}
+span.parnum
+{
+font-weight: bold;
+}
+.marginnote
+{
+font-size:0.8em;
+height:0;
+left:1%;
+line-height:1.2em;
+position:absolute;
+text-indent:0;
+width:14%;
+}
+.pagenum
+{
+display:inline;
+font-size:70%;
+font-style:normal;
+margin:0;
+padding:0;
+position:absolute;
+right:1%;
+text-align:right;
+}
+a.noteref, a.pseudonoteref
+{
+font-size: 80%;
+text-decoration: none;
+vertical-align: 0.25em;
+}
+.displayfootnote
+{
+display: none;
+}
+div.footnotes
+{
+font-size: 80%;
+margin-top: 1em;
+padding: 0;
+}
+hr.fnsep
+{
+margin-left: 0;
+margin-right: 0;
+text-align: left;
+width: 25%;
+}
+p.footnote
+{
+margin-bottom: 0.5em;
+margin-top: 0.5em;
+}
+p.footnote .label
+{
+float:left;
+width:2em;
+height:12pt;
+display:block;
+}
+/* Tables */
+tr, td, th
+{
+vertical-align: top;
+}
+td.bottom
+{
+vertical-align: bottom;
+}
+td.label, tr.label td
+{
+font-weight: bold;
+}
+td.unit, tr.unit td
+{
+font-style: italic;
+}
+span.sum
+{
+padding-top: 2px; border-top: solid black 1px;
+}
+/* Table border styles */
+/* Table with borders on the outside and between the table head and data. */
+table.borderOutside
+{
+border-collapse: collapse;
+}
+table.borderOutside td
+{
+padding-left: 4px;
+padding-right: 4px;
+}
+table.borderOutside .cellHeadTop, table.borderOutside .cellTop
+{
+border-top: 2px solid black;
+}
+table.borderOutside .cellHeadBottom
+{
+border-bottom: 1px solid black;
+}
+table.borderOutside .cellBottom
+{
+border-bottom: 2px solid black;
+}
+table.borderOutside .cellLeft, table.borderOutside .cellHeadLeft
+{
+border-left: 2px solid black;
+}
+table.borderOutside .cellRight, table.borderOutside .cellHeadRight
+{
+border-right: 2px solid black;
+}
+/* Table with borders on the vertical inside edges. */
+table.verticalBorderInside
+{
+border-collapse: collapse;
+}
+table.verticalBorderInside td
+{
+padding-left: 4px;
+padding-right: 4px;
+border-left: 1px solid black;
+}
+table.verticalBorderInside .cellHeadTop, table.verticalBorderInside .cellTop
+{
+border-top: 2px solid black;
+}
+table.verticalBorderInside .cellHeadBottom
+{
+border-bottom: 1px solid black;
+}
+table.verticalBorderInside .cellBottom
+{
+border-bottom: 2px solid black;
+}
+table.verticalBorderInside .cellLeft, table.verticalBorderInside .cellHeadLeft
+{
+border-left: 0px solid black;
+}
+/* Table with borders on all edges, outer edges somewhat fatter. */
+table.borderAll
+{
+border-collapse: collapse;
+}
+table.borderAll td
+{
+padding-left: 4px;
+padding-right: 4px;
+border: 1px solid black;
+}
+table.borderAll .cellHeadTop, table.borderAll .cellTop
+{
+border-top: 2px solid black;
+}
+table.borderAll .cellHeadBottom
+{
+border-bottom: 1px solid black;
+}
+table.borderAll .cellBottom
+{
+border-bottom: 2px solid black;
+}
+table.borderAll .cellLeft, table.borderAll .cellHeadLeft
+{
+border-left: 2px solid black;
+}
+table.borderAll .cellRight, table.borderAll .cellHeadRight
+{
+border-right: 2px solid black;
+}
+/* Special purpose tables: */
+table.intralinear
+{
+display: inline;
+border-collapse: collapse;
+}
+table.intralinear td
+{
+font-size: small;
+text-align: center;
+}
+table.ditto
+{
+display: inline;
+border-collapse: collapse;
+vertical-align: bottom;
+}
+table.ditto tr.s
+{
+height: 0;
+color: white;
+line-height: 0;
+}
+table.ditto tr.s td
+{
+padding: 0px;
+border-style: none;
+}
+table.ditto tr.d td
+{
+text-align: center;
+line-height: 10pt;
+border-style: none;
+}
+/* Poetry */
+.lgouter
+{
+margin-left: auto;
+margin-right: auto;
+display:table; /* used to make the block shrink to the actual size */
+}
+.lg
+{
+text-align: left;
+}
+.lg h4, .lgouter h4
+{
+font-weight: normal;
+}
+.lg .lineNum, .sp .lineNum, .lgouter .lineNum
+{
+color:#777;
+font-size:90%;
+left: 16%;
+margin:0;
+position:absolute;
+text-align:center;
+text-indent:0;
+top:auto;
+width:1.75em;
+}
+p.line
+{
+margin: 0 0% 0 0%;
+}
+span.hemistich /* invisible text to achieve visual effect of hemistich indentation. */
+{
+color: white;
+}
+.versenum
+{
+font-weight:bold;
+}
+/* Drama */
+.speaker
+{
+font-weight: bold;
+margin-bottom: 0.4em;
+}
+.sp .line
+{
+margin: 0 10%;
+text-align: left;
+}
+/* End Drama */
+/* right aligned page number in table of contents */
+span.tocPageNum, span.flushright
+{
+position: absolute;
+right: 16%;
+top: auto;
+}
+table.tocList
+{
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+border-width: 0;
+border-collapse: collapse;
+}
+td.tocPageNum, td.tocDivNum
+{
+text-align: right;
+width: 10%;
+border-width: 0;
+}
+td.tocDivNum
+{
+padding-left: 0;
+padding-right: 0.5em;
+}
+td.tocPageNum
+{
+padding-left: 0.5em;
+padding-right: 0;
+}
+td.tocDivTitle
+{
+width: auto;
+}
+span.corr, span.gap
+{
+border-bottom:1px dotted red;
+}
+span.abbr
+{
+border-bottom:1px dotted gray;
+}
+span.measure
+{
+border-bottom:1px dotted green;
+}
+/* Font Styles and Colors */
+.ex
+{
+letter-spacing: 0.2em;
+}
+.sc
+{
+font-variant: small-caps;
+}
+.uc
+{
+text-transform: uppercase;
+}
+.tt
+{
+font-family: monospace;
+}
+.underline
+{
+text-decoration: underline;
+}
+/* overline is actually a bit too high; overtilde is approximated with overline */
+.overline, .overtilde
+{
+text-decoration: overline;
+}
+.rm
+{
+font-style: normal;
+}
+.red
+{
+color: red;
+}
+/* End Font Styles and Colors */
+hr
+{
+clear:both;
+height:1px;
+margin-left:auto;
+margin-right:auto;
+margin-top:1em;
+text-align:center;
+width:45%;
+}
+.aligncenter, div.figure
+{
+text-align:center;
+}
+h1, h2
+{
+font-size:1.44em;
+line-height:1.5em;
+}
+h1.label, h2.label
+{
+font-size:1.2em;
+line-height:1.2em;
+margin-bottom:0;
+}
+h5, h6
+{
+font-size:1em;
+font-style:italic;
+line-height:1em;
+}
+p
+{
+text-indent:0;
+}
+p.firstlinecaps:first-line
+{
+text-transform: uppercase;
+}
+p.dropcap:first-letter
+{
+float: left;
+clear: left;
+margin: 0em 0.05em 0 0;
+padding: 0px;
+line-height: 0.8em;
+font-size: 420%;
+vertical-align:super;
+}
+.lg
+{
+padding: .5em 0% .5em 0%;
+}
+p.quote,div.blockquote, div.argument
+{
+font-size:0.9em;
+line-height:1.2em;
+margin:1.58em 5%;
+}
+.pagenum a, a.noteref:hover, a.hidden:hover, a.hidden
+{
+text-decoration:none;
+}
+td.galleryFigure
+{
+text-align: center;
+vertical-align: middle;
+}
+td.galleryCaption
+{
+text-align: center;
+vertical-align: top;
+}
+ul { list-style-type: none; }
+.castlist, .castitem { list-style-type: none; }
+body
+{
+background: #FFFFFF;
+font-family: "Times New Roman", Times, serif;
+}
+body, a.hidden
+{
+color: black;
+}
+h1, .h1
+{
+padding-bottom: 5em;
+}
+h1, h2, .h1, .h2
+{
+text-align: center;
+font-variant: small-caps;
+font-weight: normal;
+}
+p.byline
+{
+text-align: center;
+font-style: italic;
+margin-bottom: 2em;
+}
+.figureHead, .noteref, .pseudonoteref, .marginnote, p.legend, .versenum
+{
+color: #660000;
+}
+.rightnote, .pagenum, .linenum, .pagenum a
+{
+color: #AAAAAA;
+}
+a.hidden:hover, a.noteref:hover
+{
+color: red;
+}
+h1, h2, h3, h4, h5, h6
+{
+font-weight: normal;
+}
+table
+{
+margin-left: auto;
+margin-right: auto;
+}
+.tablecaption
+{
+text-align: center;
+}
+.pagenum, .linenum
+{
+speak: none;
+}
+</style>
+
+<style type="text/css">
+/* CSS rules generated from @rend attributes in TEI file */
+.xd21e97width
+{
+width:507px;
+}
+.xd21e104width
+{
+width:491px;
+}
+.xd21e310width
+{
+width:523px;
+}
+.xd21e319width
+{
+width:517px;
+}
+.xd21e410width
+{
+width:303px;
+}
+.xd21e483width
+{
+width:138px;
+}
+.xd21e598width
+{
+width:555px;
+}
+.xd21e647width
+{
+width:236px;
+}
+.xd21e733width
+{
+width:298px;
+}
+.xd21e748
+{
+text-align:right;
+}
+.xd21e754width
+{
+width:296px;
+}
+.xd21e785width
+{
+width:302px;
+}
+.xd21e845width
+{
+width:180px;
+}
+.xd21e868width
+{
+width:528px;
+}
+.xd21e889width
+{
+width:295px;
+}
+.xd21e911width
+{
+width:549px;
+}
+.xd21e920width
+{
+width:158px;
+}
+.xd21e986width
+{
+width:191px;
+}
+.xd21e1003width
+{
+width:555px;
+}
+.xd21e1074width
+{
+width:265px;
+}
+.xd21e1121width
+{
+width:562px;
+}
+.xd21e1184width
+{
+width:550px;
+}
+.xd21e1214width
+{
+width:187px;
+}
+.xd21e1228width
+{
+width:526px;
+}
+.xd21e1288width
+{
+width:547px;
+}
+.xd21e1351width
+{
+width:302px;
+}
+.xd21e1383width
+{
+width:255px;
+}
+.xd21e1411width
+{
+width:316px;
+}
+.xd21e1435width
+{
+width:558px;
+}
+.xd21e1452width
+{
+width:327px;
+}
+.xd21e1501width
+{
+width:569px;
+}
+.xd21e1530width
+{
+width:552px;
+}
+.xd21e1546width
+{
+width:298px;
+}
+.xd21e1570width
+{
+width:550px;
+}
+.xd21e1636
+{
+text-indent:8em;
+}
+.xd21e1664width
+{
+width:285px;
+}
+.xd21e1697width
+{
+width:549px;
+}
+.xd21e1714width
+{
+width:556px;
+}
+.xd21e1730
+{
+text-indent:6em;
+}
+.xd21e1778width
+{
+width:564px;
+}
+.xd21e1792width
+{
+width:562px;
+}
+.xd21e1810width
+{
+width:558px;
+}
+.xd21e1842width
+{
+width:563px;
+}
+.xd21e1893width
+{
+width:268px;
+}
+.xd21e1918width
+{
+width:564px;
+}
+.xd21e1932width
+{
+width:318px;
+}
+.xd21e1949width
+{
+width:152px;
+}
+.xd21e1982width
+{
+width:323px;
+}
+.xd21e2016width
+{
+width:198px;
+}
+.xd21e2036width
+{
+width:330px;
+}
+.xd21e2071width
+{
+width:154px;
+}
+.xd21e2098width
+{
+width:589px;
+}
+.xd21e2110width
+{
+width:558px;
+}
+.xd21e2122
+{
+border:2px double black; margin:10px 15%; padding:10px 10px;
+}
+.xd21e2123
+{
+text-align:center;
+}
+.xd21e2311width
+{
+width:517px;
+}
+.xd21e2326
+{
+text-indent:2em;
+}
+.xd21e2558width
+{
+width:503px;
+}
+</style>
+</head>
+<body>
+
+<div class="front">
+<div class="div1 cover"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divBody">
+<p class="first"></p>
+<div class="figure xd21e97width"><img src="images/voorkant.jpg" alt="Oorspronkelijke voorkant." width="507" height="720"></div>
+</div>
+</div>
+<div class="div1 titlepage"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divBody">
+<p class="first"></p>
+<div class="figure xd21e104width"><img src="images/titelpagina.png"
+alt="Oorspronkelijke titelpagina." width="491" height="720"></div>
+<p><span class="pagenum">[<a id="xd21e108" href="#xd21e108" name="xd21e108">2</a>]</span></p>
+</div>
+</div>
+<div class="titlePage">
+<div class="docTitle">
+<div class="mainTitle">PARODIE&Euml;N</div>
+</div>
+<div class="byline">DOOR<br>
+<span class="docAuthor">CORNELIS VETH</span></div>
+<div class="docImprint">EERSTE REEKS<br>
+AMSTERDAM<br>
+UITGEVERS-MAATSCHAPPIJ &ldquo;ELSEVIER&rdquo;<br>
+<span class="docDate">1918</span></div>
+</div>
+<p><span class="pagenum">[<a id="xd21e129" href="#xd21e129" name="xd21e129">4</a>]</span></p>
+</div>
+<div class="body">
+<div id="gigio" class="div1 story"><span class="pagenum">[<a href="#xd21e2509">Inhoud</a>]</span>
+<div class="divHead">
+<div class="figure"><img src="images/p05.jpg" alt="VAN GIGIO EN FAMULUS" width="539" height="373"></div>
+<h2 class="main">VAN GIGIO EN FAMULUS</h2>
+<h2 class="sub">ROMEINSCHE ROMAN</h2>
+</div>
+<div class="divBody">
+<p class="first">Het was dien morgen een ochtend van ideale schoonheid
+en atmosfeer. De keizerlijke <i>Villa</i> lijnde zich uit als een droom
+van <i>marmor</i>, als een eindeloos uitgemeten stuk groen biljartlaken
+spreiddede zich het grasveld, als een architecturale <i>fabula</i>
+volgden <i>portico&rsquo;s</i> op <i>portico&rsquo;s</i>, schakelden
+<i>nymfea</i> zich aan <i>nymfea</i>, ronddeden zich de immense
+<i>exedra</i> als <i>cathedra</i> voor <i>pedagogen</i> van
+<i>titanen</i>.</p>
+<p>Langs den oever van de rivier, die zich strekte als een eindeloos
+uitgeplette reep blik, op het strand dat naar de zon duiddede als een
+lange vieil-or-kleurig-gehandschoende voorvinger, promeneerden de
+<i>matronae</i> in <i>stola</i> en <i>palla</i>, de <i>meritrices</i>
+in <i>palla</i> en <i>stola</i>, stroomden zij uit de Thermen, nog
+na-boudeerend over de <span class="pagenum">[<a id="xd21e193" href="#xd21e193" name="xd21e193">5</a>]</span>duurte van de <i>tesserae</i>,
+die zij betaald hadden aan de <i>ostiari</i>, en de patriciërs,
+nog mopperend over de <i>foia</i> die zij volgens de <i>mos</i> hadden
+moeten aanbieden aan de <i>capsarii</i> in het <i>frigidarium</i> of
+het nog prijziger <i>tepidarium</i>, waar zij hun <i>corpus</i> hadden
+gebaad en geodorificeerd. Hier ontmoetteden de jonge Aanzienlijken de
+<i>matronae</i> en de <i>virginae</i>, groetteden hoffelijk, wisselden
+met geëffaceerde galanterie of geaffineerde venijnigheid
+epigrammen, tot de slik van een <i>carpenta</i> met &eacute;&eacute;n
+of twee paarden hen bespattede, zoodat zij haastig scheiddeden en zich
+voortspoeddeden, <i>anathema&rsquo;s</i> van vernuftig-stekelige
+vinding werpend naar de menners, welke hiervan, hooggezeten, niets
+vermoeddeden. Daartusschen scharrelden de straatjongens, etende hun
+oliebollen, buitelende over hun <i>caput</i>, of elkaar slaande op hun
+<i>tabernaculum</i>, hun <i>testimonium</i>, hun <i>tonitrus</i>, hun
+<i>fulmen</i> of wel hun <i>animus</i>. De vermetelsten verstoutteden
+zich wel eens achter den rug van de Aanzienlijken een langen
+<i>naso</i> te trekken, of de <i>lingua</i> uit te steken. Bij
+afwisseling bestookten zij elkaar met <i>sputum</i> of zelfs
+<i>faecaliën</i>.</p>
+<p>Over de blik-blanke rivier gleed een <i>navicula</i>, in voorname
+wiegeling. In dat bootje, geroeid door Ethiopische zwarte slaven, zaten
+twee Aanzienlijken, en onderhielden zich, hoffelijk, in kunstvol
+geciseleerd Latijnsch.</p>
+<p>De &eacute;&eacute;n was een vijftiger, treffend aristocratisch, met
+artificieel klein geknepen mond, een kale <i>calva</i> en donkere
+oogen, verborgen achter groote <i>lunettae</i>, in onberispelijk
+Romeinsch avondtoilet gehuld. Hij sprak met kalme hooge stemme het
+zoetklinkende accent der residentie. De ander was een godschoone knaap,
+met slanke, als broze leden, fijn, doch athletisch, een roomkleurig
+teint en een heerlijken, fraai bewerkten haardos.</p>
+<p>&ldquo;Waart gij bij den <i>Augustus</i>, Edele Gigio?&rdquo;
+vraagde de laatste. <span class="pagenum">[<a id="xd21e282" href="#xd21e282" name="xd21e282">6</a>]</span></p>
+<p>&ldquo;Ja&rdquo; antwoorddede de ander met elaboraten glimlach.</p>
+<p>&ldquo;Hoe was de <i>Salutatio</i>?&rdquo;</p>
+<p>&ldquo;<i>Quatio<span class="corr" id="xd21e294" title="Niet in bron">.</span></i>&rdquo;</p>
+<p>Beiden zwegen. Er liepen gouden glansen over de zweetdruipende
+zwartheid van de slaven, als verguld ebbenhout glommen zij soms in den
+<i>Sol</i>.</p>
+<p>De beide Aanzienlijken leunden, nauwelijks genietend hun mollige
+kussens, peinzend over het factice leven.</p>
+<p>De stad was blank onder blauwe lucht.</p>
+<p>Gigio droomde. De welverzorgde hand met slechts enkele, niet
+overdreven bejuweelde ringen, rusttede op den rand van het bootje, het
+schuim dat zich daarlangs afteekende, zachtkens fijnknijpend.</p>
+<div class="figure xd21e310width"><img src="images/p07.png" alt="&ldquo;Hoe was de salutatio?&rdquo;" width="523" height="284">
+<p class="figureHead">&ldquo;Hoe was de salutatio?&rdquo;</p>
+</div>
+<p>Hij droomde van en over zich zelf en anderen, van goden en keizers
+en dichters en hetaeren. Hij bevond zich op den weg der vreugde en
+richttede zich vol majesteit op, want v&oacute;&oacute;r hem rees een
+berg van licht. Over lichtende drempels trad hij in extase, God en
+Goden, maar ook kleine zielen en comedianten voorbijgaand en bereikte,
+langs lijnen van geleidelijkheid, Babel. <span class="pagenum">[<a id="xd21e316" href="#xd21e316" name="xd21e316">7</a>]</span>De hooge
+troeven uitspelend van een stille kracht die geen illusie was, overwon
+hij zijn noodlot. Het was een metamorfose zijner psyche. Een lent van
+vaerzen zong in hem. Het was of de wereldvrede gekomen was. En Fidessa
+waarde rond, orchideeën in het hair, een kluwen in de hand.
+&ldquo;Wil is winde!&rdquo; bad zij. Heracles, hoffelijk, strekte reeds
+de hand uit. Maar Dionysos was den ongelukkige voor. Op eens hadden zij
+de gestalten van oude menschen aangenomen, van dingen die voorbijgaan,
+van reisimpressies. Doch daar was Eline. Zij was jong gebleven ....</p>
+<div class="figure xd21e319width"><img src="images/p08.png" alt="Dionysos was den ongelukkige voor" width="517" height="387">
+<p class="figureHead">Dionysos was den ongelukkige voor</p>
+</div>
+<p>Het donkerde. De bonte menigte op de <i>promenada</i> was henen.
+Alles was stil. Alleen vedelden fel de krekels, die rekels.</p>
+<p>Plotseling woei ziltere bries.</p>
+<p>Gigio sloeg de oogen op. Zij rustteden met welgevallen <span class="pagenum">[<a id="xd21e332" href="#xd21e332" name="xd21e332">8</a>]</span>op zijn godschoonen metgezel. De jongeling
+beantwoorddede zijn gefaneerden glimlach.</p>
+<p>&ldquo;Wat peinst gij, lieve vriend?&rdquo; vraagde Famulus, ter
+onderscheiding van zijn beroemden bloedverwant, den <i>arbiter
+elegantiarum</i>, de jongere genaamd.</p>
+<p>&ldquo;Famulus,&rdquo; antwoorddede Gigio, en zijn oogen, half
+gesloten, blikten met gesupprimeerde flonkering van weemoed op den
+jongeling, terwijl zijn vingers in distractie een vlok felwitten schuim
+verknepen. &ldquo;Ik weet het nauwelijks. Van de jaren die vlieden, ...
+van de boeken, die nog komende zijn ... van den bijval der menigte ...
+van het cameleontische verleden ... van roode dorpen onder grauwe
+lucht... van schoone woorden en booze moorden ... van romantiek in
+antiek ... van antiek in romantiek ... van den Paljasso in het Palazzo
+... Endymion ... van het obscene, maar ongemeene ... Sappho ...</p>
+<p>&ldquo;Van nieuwe titels?&rdquo; vraagde Famulus belangstellend.</p>
+<p>Gigio antwoorddede niet.</p>
+<p>De slaven ziegezaagden met hunne roeiriemen.</p>
+<p>Donker de rivier, en dieper, lichter de lucht en hooger, het lichtst
+de heuvelen... Alleen geeuwden helsch de meeuwen.</p>
+<p>Wiegewagend wigde het bootje door de golven.</p>
+<p>&ldquo;Dat is wel mooi!&rdquo; wees Gigio.</p>
+<p>&ldquo;En wel groot h&eacute;... ?&rdquo;</p>
+<p>&ldquo;H&eacute;&eacute;l groot alles...!&rdquo;</p>
+<p>&ldquo;Mooi...!&rdquo;</p>
+<p>&ldquo;En &oacute;f!&rdquo;</p>
+<p>&ldquo;Maar niet te groot?&rdquo;</p>
+<p>&ldquo;Beslist niet!&rdquo;</p>
+<p>&ldquo;Niet te mooi ook?&rdquo;</p>
+<p>&ldquo;Kan niet bestaan!&rdquo;</p>
+<p>&ldquo;Heb je honger?&rdquo;</p>
+<p>&ldquo;Of ik honger heb?&rdquo;</p>
+<p>&ldquo;Ja!&rdquo; <span class="pagenum">[<a id="xd21e377" href="#xd21e377" name="xd21e377">9</a>]</span></p>
+<p>&ldquo;Ja en neen!&rdquo;</p>
+<p>&ldquo;Lekkere honger?&rdquo;</p>
+<p>&ldquo;Juist.&rdquo;</p>
+<p>&ldquo;Lig je goed?&rdquo;</p>
+<p>&ldquo;Zalig.&rdquo;</p>
+<p>&ldquo;We zijn er haast.&rdquo;</p>
+<p>&ldquo;Ben je daar blij om?&rdquo;</p>
+<p>&ldquo;Ja en neen.&rdquo;</p>
+<p>&ldquo;Hoezoo<span class="corr" id="xd21e397" title="Bron: .">?</span>&rdquo;</p>
+<p>&ldquo;Blij om het maal, niet blij om het heerlijke
+liggen.&rdquo;</p>
+<p>&ldquo;Heu daar, wij zijn er!&rdquo; sprak Gigio nu.</p>
+<p>De slaven hielden. De beide Aanzienlijken strekten de knieën,
+ontspanden de kuiten, rekten de armen en de kaakspieren lang en
+behagelijk, met geprolongeerde keelgeluiden. Zij stonden op hun
+<i>pedes posteriores</i>. En Gigio wuifde den slaven een gebaar, dat
+zij zouden wachten.</p>
+<div class="figure floatLeft xd21e410width"><img src="images/p10.png"
+alt="De Serenissima" width="303" height="439">
+<p class="figureHead">De Serenissima</p>
+</div>
+<p>Aan de trappen eener <i>exedra</i>, door den <i>cubicularius</i>
+geleid, verscheen de <i>serenissima</i>.</p>
+<p>Groot, donker van haar en van oogen, in koker-enge <i>stola</i>, de
+nauwe <i>palla</i> omgietende het lichaam, de <i>zona</i>, gordel die
+de borst omgaf, breed. Zij zelf een weinig <i>crassa</i>: strak spande
+de stola... <i>Gigio</i> waardeerde de <i>serenissima</i>, hield van
+haar <i>habitus</i>.</p>
+<p>Was zij niet zijn vriendin? Had hij haar niet in de <span class="pagenum">[<a id="xd21e451" href="#xd21e451" name="xd21e451">10</a>]</span>ziel gelezen? Hield zij niet, als hij, van
+fraaie woorden, van het artificieele, het geëffaceerde, het
+gefaneerde, het geaffineerde, van hoffelijkheid, van <i>reverentia</i>
+en r&eacute;v&eacute;rences, van elaborate epigrammen, van
+<i>tea&rsquo;s</i> en petits-fours?</p>
+<p>Was zij daarom niet zijn vriendin?</p>
+<p>&ldquo;Gegroet, edele Gigio, gegroet, lieve vriend Famulus,
+<i>Vale</i>,&rdquo; sprak de serenissima.</p>
+<p>Hoffelijk bogen de beide Aanzienlijken en kusten de hand die
+flonkerde van robijnen.</p>
+<p>De <i>cubicularius</i> boog slechts.</p>
+<p>Men ging naar binnen. De <i>Serenissima</i> nam Gigio bij de hand.
+Famulus volgde. Hem volgde de <i>cubicularius</i> op eenigen
+afstand.</p>
+<div class="figure floatRight xd21e483width"><img src="images/p11.png"
+alt="&ldquo;Serenissima est servita&rdquo;" width="138" height="462">
+<p class="figureHead">&ldquo;Serenissima est servita&rdquo;</p>
+</div>
+<p>Men vlijde zich op de rustbanken.</p>
+<p>Op een wenk der <i>Serenissima</i> verwijderde zich, onhoorbaar, de
+<i>cubicularius</i>.</p>
+<p>&ldquo;Het verschaft mij hooge eere dat gij, edele vrienden, wilt
+komen aanliggen aan mijn nederige <i>tabula</i>&rdquo;, zeide de
+gastvrouwe, terwijl zij met eigen hand drie glazen goud-fonkelende oude
+<i>clara</i> inschonk.</p>
+<p>&ldquo;Onzer is de eere!&rdquo; zeide Gigio buigend. Hij hief het
+glas.</p>
+<p>&ldquo;<i>Nostrorum Sanitas</i>!&rdquo; sprak hij.</p>
+<p>&ldquo;<i>Idem</i>!&rdquo; beaamden de beide anderen. Zij
+klonken.</p>
+<p>Een vrijgelatene, strak-correct, pink op de naad van de
+<i>tunica</i>, verscheen.</p>
+<p>&ldquo;<i>Serenissima est servita</i>!&rdquo; sprak hij.</p>
+<p>Men legde zich om den disch. Slaven slopen onhoorbaar met de
+gerechten aan. Men at een gans, gekookt op de Romeinsche wijze, in een
+saus, samengesteld uit peper, <i>coriander</i>, muntkruid, ansjovis en
+<span class="pagenum">[<a id="xd21e533" href="#xd21e533" name="xd21e533">11</a>]</span>olie. Vooraf ging de <i>calucacabia</i> of
+Romeinsche soep, waarin kaas, pijnappels, azijn, honig, eieren,
+komkommers, uien en kippenlevers gemengd zijn. Men deed zich nog te
+goed aan andere spijzen, allen toebereid met min of meer olie en
+honig.</p>
+<p>&ldquo;Hoe smaakt het?&rdquo; zeide de Serenissima.</p>
+<p>&ldquo;Goed<span class="corr" id="xd21e542" title="Niet in bron">,</span>&rdquo; zeide Gigio.</p>
+<p>&ldquo;En u, Famulus?&rdquo;</p>
+<p>&ldquo;Goed.&rdquo;</p>
+<p>De schoone knaap at veel, te veel. Gigio weinig. De Serenissima,
+gewoon. Zij sprak veel, Gigio weinig, de schoone jongeling in het
+geheel niet.</p>
+<p>Want aldoor at en vrat, de knappe fat.</p>
+<p>De conversatie begon tegen het dessert, dat bestond uit geroosterd
+papaverzaad met honig, aan te wakkeren, maar de Serenissima moest wel
+opmerken, dat Gigio al minder sprak en al minder eetlust had. Slechts
+de wijn, de zacht gouden Syciliër, uit den eigen wijngaard der
+gastvrouw, werd door hem gewaardeerd.</p>
+<p>&ldquo;Gij zijt stil, lieve vriend Gigio,&rdquo; zeide de
+Serenissima eindelijk, het hoofd rustend op de sculpturale armen.</p>
+<p>Gigio schuddede zich wakker.</p>
+<p>&ldquo;Ja,&rdquo; zeide hij, &ldquo;de Augustus ....&rdquo; Hij
+voltooide den zin niet.</p>
+<p>De vrijgelatene trad ongeroepen binnen, doodsbleek.</p>
+<p>&ldquo;Wat is er?&rdquo; vraagde de Serenissima.</p>
+<p>&ldquo;De Augustus, Titianus ....&rdquo;</p>
+<p>&ldquo;Heu,&rdquo; riep Gigio uit, &ldquo;wat is er van den
+Augustus?&rdquo;</p>
+<p>&ldquo;Is vermoord!&rdquo;</p>
+<p>Allen zwegen. Slechts knapte krak, het krappe stola-pak. De
+godschoone knaap maakte den gordel losser.</p>
+<p>Buiten was het volk saamgeloopen. De mare had zich door de stad
+verspreid.</p>
+<p>Men riep het elkaar toe: <span class="pagenum">[<a id="xd21e578"
+href="#xd21e578" name="xd21e578">12</a>]</span></p>
+<p>&ldquo;De Augustus is dood!&rdquo;</p>
+<p>&ldquo;Is de Augustus dood?&rdquo;</p>
+<p>&ldquo;Ja, de Augustus is dood!&rdquo;</p>
+<p>&ldquo;Hij werd vermoord!&rdquo;</p>
+<p>&ldquo;Wee, hij werd vermoord!&rdquo;</p>
+<p>&ldquo;Vermoord?&rdquo;</p>
+<p>&ldquo;Vermoord!<span class="corr" id="xd21e594" title="Niet in bron">&rdquo;</span></p>
+<div class="figure xd21e598width"><img src="images/p13.png" alt="&ldquo;Gij zijt stil, edele Gigio!&rdquo;" width="555" height="381">
+<p class="figureHead">&ldquo;Gij zijt stil, edele Gigio!&rdquo;</p>
+</div>
+<p>De lucht, azuur, strekte ongevoelig boven de ontroerde menigte.</p>
+<p>&ldquo;Door wien is hij vermoord?&rdquo;</p>
+<p>&ldquo;Door een tribuun.&rdquo;</p>
+<p>&ldquo;Neen, door een vrijgelatene.&rdquo;</p>
+<p>&ldquo;Nietwaar, door een tribuun!&rdquo;</p>
+<p>Men was het er niet over eens.</p>
+<p>Uit de ramen, halver lijve, lagen wijven met hun vijven, te kijven:
+<span class="pagenum">[<a id="xd21e617" href="#xd21e617" name="xd21e617">13</a>]</span></p>
+<p>&ldquo;Ik zeg, dat het een tribuun was!&rdquo;</p>
+<p>&ldquo;Ik zeg: een <i>aedile</i>.&rdquo;</p>
+<p>&ldquo;Nu nog mooier: een officier!&rdquo;</p>
+<p>&ldquo;Och, kom, een officier!<span class="corr" id="xd21e629"
+title="Niet in bron">&rdquo;</span></p>
+<p>Er kwam nog een oude vrouw bij.</p>
+<p>Het gesprek werd vreedzamer.</p>
+<p>Nu gingen, met haar zessen, die oude besten aan &rsquo;t
+kletsen.</p>
+<p>Langzamerhand voldeed het haar niet meer, uit het raam te
+roepen.</p>
+<p>Zij kwamen naar buiten, op de <i>via</i>.</p>
+<div class="figure floatLeft xd21e647width"><img src="images/p14.png"
+alt="De Augustus viel..." width="236" height="203">
+<p class="figureHead">De Augustus viel...</p>
+</div>
+<p>De lucht was vol rumoer van stemmen. In de eetzaal der
+<i>Serenissima</i> was het stil.</p>
+<p>Gigio peinsde. De gastvrouwe deed haar <i>siësta</i>.</p>
+<p>Alleen schrokte en slokte, de godlijk goudgelokte.</p>
+<p>Buiten bleef men roepen:</p>
+<p>&ldquo;De Augustus is vermoord!...&rdquo;</p>
+<p>&ldquo;Titianus regeert niet meer!<span class="corr" id="xd21e669"
+title="Niet in bron">&rdquo;</span></p>
+<p>&ldquo;De Caesar, Antoninus is nu de Augustus!&rdquo;</p>
+<p>&ldquo;Ja, hij is nu de Augustus.&rdquo;</p>
+<p>&ldquo;Wie vermoordde Titianus?&rdquo;</p>
+<p>&ldquo;Een vrijgelatene Beneventus vermoordde den
+Augustus!&rdquo;</p>
+<p>&ldquo;Hem doodden de <i>aedilen</i>!&rdquo;</p>
+<p>&ldquo;Ja, de <i>aedilen</i> doodden den moordenaar!&rdquo;</p>
+<p>Gigio schonk zich nog eens in. Hij peinsde. Hij zag den Augustus,
+dien morgen, boos, achterdochtig, de <i>salutatio</i> opheffen. Hij zag
+hem liggen, in zijn weelderig paleis, aan den disch, de oogen wild, den
+lach pervers, zinnend op nieuwe genietingen, woester, wreeder dan de
+vorige. Hij zag een vrijgelatene naar voren komen en steken met den
+dolk; bloed, geen gouden bloed, maar <span class="pagenum">[<a id="xd21e696" href="#xd21e696" name="xd21e696">14</a>]</span>purperen
+keizersbloed spoot uit de wonde. De Caesar was een <i>cadaver</i>. De
+artsen stroomden toe, wijze mannen, vol occulte wetenschap. Zij
+schuddeden het hoofd.</p>
+<p>&ldquo;Hij is <i>mortibus</i>,&rdquo; sprak de een. &ldquo;Hij is
+<i>ad patres</i>,&rdquo; sprak de ander. Zij bedoelden hetzelfde.</p>
+<p>Gigio zuchtte. Z&oacute;&oacute; is het leven: een Augustus sterft,
+een andere Augustus volgt hem op. En z&oacute;&oacute; is het leven:
+men schenkt zich nog eens in en denkt eraan, wat men bij de <i>ludi
+funebres</i> dragen zal.</p>
+<p>Gigio keek om zich.</p>
+<p>De godmooie jonkman lag voor <i>miraculum</i>.</p>
+<p>De Serenissima had de zale verlaten. Gigio stond op en naderde het
+venster. De oude wijven, dik en dun, tanig en purper, kaal en ruig,
+bespraken nog den <i>casus</i>. De lucht koepelde staalblauw over de
+puntige olijfgroene cypressen. De rivier kronkelde als een zweep en
+glinsterglom in het zilveren licht der maan. In de verte glansden, als
+oud goud, de bezweete huiden zijner zwarte slaven, wachtend bij het
+bootje. Overal heerschte <i>silentium</i>.</p>
+<p>Alleen kwebbelden schel de heksen.</p>
+<div class="figure xd21e733width"><img src="images/p15.png" alt=""
+width="298" height="347"></div>
+<p><span class="pagenum">[<a id="xd21e735" href="#xd21e735" name="xd21e735">15</a>]</span></p>
+</div>
+</div>
+<div id="vondeling" class="div1 story"><span class="pagenum">[<a href="#xd21e2516">Inhoud</a>]</span>
+<div class="divHead">
+<h2 class="main">DE VONDELING</h2>
+<h2 class="sub">HISTORISCHE ROMAN</h2>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK I</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Maar wie telt mijner tranental?&rdquo;</p>
+</div>
+<p class="first xd21e748"><span class="ex">Borger.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first">In &eacute;&eacute;n der volkrijkste wijken van
+Parijs, den Faubourg Saint Antoine, bewogen zich op eenen guren
+Novembermorgen in den jare 1793 twee eenzame voetgangers, wier
+uiterlijk voorkomen op eene drokkere ure voorzeker de algemeene
+aandacht op zich zoude hebben gevestigd.</p>
+<div class="figure floatLeft xd21e754width"><img src="images/p16.png"
+alt="" width="296" height="385"></div>
+<p>&ldquo;Voort! Voort!&rdquo;</p>
+<p>De best, welke deze rauwe woorden meer tierde dan sprak, meer
+krijschte dan zeide, mocht ongeveer honderd zomers tellen, edoch meer
+dan de jaren hadden de nijd, de booze luim, de gram bovenal deze
+gestalte gebogen, dit gelaat doorploegd; zij duwde eenen in lompen
+gehulden knaap v&oacute;&oacute;r zich uit, maar hoe
+onzacht!&mdash;porde hem met een ijzeren haak, het werktuig der
+voddenrapers, tusschen de schouderbladen, trok hem&mdash;alsof dit
+alles nog niet genoeg ware om den onwilligste&mdash;<span class="pagenum">[<a id="xd21e760" href="#xd21e760" name="xd21e760">16</a>]</span>en deze knaap scheen niet zoozeer onwillig als
+moede, niet zoozeer lui als afgemat&mdash;tot spoed aan te manen, trok
+hem onbarmhartig aan zijn &eacute;&eacute;nigst cieraad, de lokken!</p>
+<p>Eenen nauwlettenden opmerker zoude in de gelaatstrekken en houding
+van den mishandelden knaap intusschen zekere fierheid niet ontgaan
+zijn; er was in dat welvend voorhoofd, de onder het vuil zoo kleine en
+blanke handen ietwes, dat welsprekend van eene hooge afstamming
+gewaagde; zoo althans dacht blijkbaar de korporaal der republiek er
+over, dien wij het ongelijke paar zien ontmoeten.</p>
+<p>&ldquo;Goeden dag, Hendrik Jan,&rdquo; gromt de snorrebaard niet
+onvriendelijk; hij groet de oude stuurscher, welke intusschen daarvan
+nietwes bespeurt, vervuld als zij is van begeerte naar de schatten,
+welke de afval der straat voor haar bergt, verdiept als zij
+is&mdash;eilacy!&mdash;in het plukken aan de lokken haars rampspoedigen
+pleegzoons!</p>
+<p>&ldquo;Goeden dag, Meester Jacob,&rdquo; gelukt het dezen nog te
+antwoorden, als een hernieuwde por tusschen de schouderen, als een
+versche ruk aan de lokken hem op eene vondste der heks&mdash;eenen
+koolstronk&mdash;eene doode muis&mdash;eenen tabakspruim&mdash;wat
+raakt het ons?&mdash;opmerkzaam maakt.</p>
+<p>Met gebalde vuisten oogt de korporaal het tweetal na; dan maakt hij
+rechtsomkeert en gaat zijns weegs.</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK II</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Wij zijn geen gewone menschen,
+Egmond&rdquo;.</p>
+</div>
+<p class="first xd21e748"><span class="ex">Goethe.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first">Woedend ging het roodgemutste graauw te keer in de
+zalen van het parlementsgebouw; maar de jongeling, klein, tenger, met
+holle, bleeke trekken en ravenzwarte haren, in de uniform eens
+luitenants van het leger der <span class="pagenum">[<a id="xd21e782"
+href="#xd21e782" name="xd21e782">17</a>]</span>Conventie, staart
+lijdelijk dit somber tooneel aan; lijdelijk, zeiden wij, doch niet
+zonder dat zijne tanden op elkander knarsen, lijdelijk, logen wij
+eigenlijk, immers niet zonder dat zijne vuisten zich ronden, zijn oogen
+flonkeren: een kanonschot, mompelt hij, en ik hadde dit gespuis
+weggevaagd, &eacute;&eacute;n kanonschot slechts, ik zwere het, of mijn
+naam is geen Napoleon Bonaparte&mdash;dus fluistert hij, haalt de
+schouders op en vertrekt, peinzende, als een rijtuig in volle vaart den
+hoek omslaande, hem welhaast overreden had. Een knaap, in lompen
+gehuld, ons niet onbekend, schiet toe en slaagt er in hem te redden;
+een historisch oogenblik: hadden beiden het slechts bevroed, hadde
+&eacute;&eacute;n hunner het slechts kunnen gissen, welke onafzienbare
+stoet van gebeurtenissen hadden zich voor zijne oogen ontrold, die
+nimmer hadden plaats gevonden, indien de knaap te spa gekomen ware!
+&mdash;</p>
+<div class="figure floatLeft xd21e785width"><img src="images/p18.png"
+alt="Het roodgemutste grauw..." width="302" height="520">
+<p class="figureHead">Het roodgemutste grauw...</p>
+</div>
+<p>18 Brumaire hadde nimmer geslagen, de naam van Napoleon hadde nimmer
+de wereld doen trillen van schrik en ontzag; Ulm, Marengo, Austerlitz
+en Jena, maar ook Leipzig, maar ook Elba, maar evenzeer Waterloo, maar
+zelfs St. Helena, welk ijdele klanken in de ooren des onverschilligen
+nageslachts; waar ware uw roem, gij Bl&uuml;cher, gij Wellington, gij
+Prins van Oranje, waar de uwe, Metternich? Uwe toekomstige Keizerstroon
+wankelde in die hachelijke stonde, gij spilzieke <span class="pagenum">[<a id="xd21e791" href="#xd21e791" name="xd21e791">18</a>]</span>Josephine, en gij, bovenal, hartelooze Maria
+Louisa! En gij, gij rampspoedig arendsjong, waar waart gij?...</p>
+<p>Het was, als deed een profetisch voorgevoel Napoleon gevoelen welk
+een pleit in die ettelijke seconden, door een schijnbaar bloot toeval,
+werd beslist. Hij tastte in zijne beurs en ontnam daaraan het laatste
+frankstuk! &ldquo;Daar gaat gij, mijn noenmaal!&rdquo; prevelde hij
+somber, edoch vervolgde overluid:</p>
+<p>&ldquo;Gij reddet mij, knaap! Ziehier.&rdquo;</p>
+<p>&ldquo;Dank voor uw geld, burger,&rdquo; klonk het fier.</p>
+<p>&ldquo;Ha, die knaap bevalt mij,&rdquo; mompelde Napoleon.
+&ldquo;Hoe heet gij, knaap?&rdquo;</p>
+<p>&ldquo;Hendrik Jan, burger.&rdquo;</p>
+<p>&ldquo;Hendrik Jan, hier is mijne snuifdoos. Mocht ge ooit in gevaar
+komen, en Napoleon Bonaparte kan u van dienst zijn, presenteer hem dan
+een snuifje uit deze doos. Goed onthouden hoor: Napoleon
+Bonaparte.&rdquo;</p>
+<p>&ldquo;E&eacute;n vraag nog, burger Boonampart....&rdquo;</p>
+<p>&ldquo;Bonaparte, knaap!&rdquo;</p>
+<p>&ldquo;Bonaparte alzoo. Is ze betaald?&rdquo;</p>
+<p>De officier glimlachte. &ldquo;Kunt gij zwijgen, knaap?&rdquo;</p>
+<p>&ldquo;Ja, burger.&rdquo;</p>
+<p>&ldquo;Ik ook, knaap! Vaarwel!&rdquo;</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK III</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Daar nadert Evertsen,</p>
+<p class="line">Verheft u, landgenooten.&rdquo;</p>
+</div>
+<p class="first xd21e748"><span class="ex">Helmers.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first">&ldquo;Gij hier, Meester Jacob?&rdquo;</p>
+<p>&ldquo;Gij hier, Hendrik Jan?&rdquo;</p>
+<p>Dit gesprek vond eenige jaren later plaats.</p>
+<p>Napoleon Bonaparte, de jongeling uit het vorige hoofdstuk, had zich
+de kroon des veroveraars op de kruin <span class="pagenum">[<a id="xd21e838" href="#xd21e838" name="xd21e838">19</a>]</span>geplant; de
+sprekers waren een jonge luitenant en een oude sergeant in het leger
+van den grooten Keizer.</p>
+<p>&ldquo;Gij vondt nog geen spoor van uwe ouders?&rdquo; vraagt de
+snorrebaard.</p>
+<p>&ldquo;Eilacy, neen!&rdquo;</p>
+<div class="figure floatLeft xd21e845width"><img src="images/p20.png"
+alt="&ldquo;Vond je je moesje nog niet, bastaard?&rdquo;" width="180"
+height="402">
+<p class="figureHead">&ldquo;Vond je je moesje nog niet,
+bastaard?&rdquo;</p>
+</div>
+<p>Een kapitein naderde het tweetal; hij scheen verre van nuchteren;
+&ldquo;hebt gij uw moesje nog niet gevonden?&rdquo; spotte hij;
+&ldquo;zoek maar niet langer&rdquo;, grijnsde de onverlaat, &ldquo;het
+zal een floddermamsel geweest zijn&rdquo;, lachte de
+ellendeling,&mdash;&eacute;&eacute;n oogenblik en de luitenant had den
+degen getrokken, &eacute;&eacute;n ommezien, en hij had zijnen
+superieur gedood!</p>
+<p>Een krijgsraad veroordeelde den jongeling tot den kogel; welk eene
+droefenis; meester Jacob, die nog nooit geweend had, deed dit nu, de
+makkers hadden den vinger aan den trekker, onwillig, maar de tucht
+gebood!&mdash;dan, daar weerklonk het &ldquo;<span lang="fr">Vive
+l&rsquo;Empereur!</span>&rdquo; de veldheer naderde, de armen over de
+borst gekruist; en ziet, de jongeling van straks is in hem herkend!</p>
+<p>&ldquo;Een snuifje, Sire&rdquo;, de talisman komt te voorschijn,
+&ldquo;een snuifje, Sire!&rdquo;</p>
+<p>&ldquo;Leef,&rdquo; spreekt de keizer goedig, &ldquo;leef,
+kapitein&mdash;de plaats is immers vacant?&rdquo;</p>
+<p>Hebt gij aan zulke gebeurlijkheden gedacht, geestige
+Lafontaine&mdash;of v&oacute;&oacute;r u, zakelijke Phaedrus&mdash;of
+v&oacute;&oacute;r u nog, scherpe Aesopus, toen gij de fabel van den
+leeuw en de muis dichttet?</p>
+<p>In ons verhaal is het kleine knaagdier een jongeling <span class="pagenum">[<a id="xd21e865" href="#xd21e865" name="xd21e865">20</a>]</span>van meer dan zes voet, de koning der
+wildernis, de keizer der Franschen; overigens: de overeenkomst is
+treffend&mdash;ook gij moet dit inzien, lieve lezer, zoo gij den zin
+der fabelen verstaat, zoo gij haar symbolische beteekenis te erkennen
+weet!</p>
+<div class="figure xd21e868width"><img src="images/p21.png" alt="&ldquo;Een snuifje, Sire?&rdquo;" width="528" height="526">
+<p class="figureHead">&ldquo;Een snuifje, Sire?&rdquo;</p>
+</div>
+<p>De oude <i>grognards</i> hebben thans geen reden tot
+mopperen,&mdash;verheugd scharen zij zich onder het commando van hunnen
+nieuwen kapitein&mdash;een goede ruil voor den straks met militaire
+eer, doch zonder tranen, ter aarde bestelden voorganger! <span class="pagenum">[<a id="xd21e877" href="#xd21e877" name="xd21e877">21</a>]</span></p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK IV</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Wie zijt gij?&rdquo;</p>
+</div>
+<p class="first xd21e748"><span class="ex">Tollens.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first"></p>
+<div class="figure floatLeft xd21e889width"><img src="images/p22.png"
+alt="Een hand lag op zijn schouder." width="295" height="378">
+<p class="figureHead">Een hand lag op zijn schouder.</p>
+</div>
+<p>Eenige etmalen mogen sinds ons vorig hoofdstuk verloopen zijn en wij
+bevinden ons in een der drokste door de krijgslieden bezochte herbergen
+der goede stad Calais; aan een tafeltje is een jongeling gezeten, het
+hoofd op de hand; om hem klinkt allerhande rumoer, hij laat zich niet
+hooren, men zingt, hij zingt niet mede, men drinkt, hij beroert den
+beker niet; men vermaakt zich, hij schijnt droefgeestig; zuchtend tast
+de hand in den borstzak en haalt een medaillon te voorschijn, en beziet
+het lang, en ernstig en verdiept; te lang, dan dat de heete groc in den
+beker nog dampen zoude; te verdiept, dan dat een geritsel hem zoude
+doen opzien; te ernstig dan dat een zacht lachen aan zijn oor zoude
+zijn opgemerkt;&mdash;dan, de mijmering werd verbroken, eene hand
+raakte zijnen schouder, het staren werd gestoord, eene stem bevochtigde
+zijn oor; hij werd eenen man gewaar, den vinger op de lippen, in den
+wijden mantel der Onbekenden gehuld, in eenen mantel welks
+geheimzinnigheid slechts neus&mdash;maar welk eenen neus!&mdash;en
+oogen&mdash;maar welke oogen!&mdash;spaarde, en alvorens het gansch
+niet onnatuurlijke, wie zijt gij, wat wilt gij, den jongeling ware
+<span class="pagenum">[<a id="xd21e895" href="#xd21e895" name="xd21e895">22</a>]</span>ontsnapt, is hem het dof en schor, doch
+vastberaden: &ldquo;volg mij&rdquo; toegefluisterd, een volg mij,
+waaraan werd voldaan, zwijgend, doch met de hand aan den degen,
+zwijgend, doch met den argwaan in het harte!</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK V</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Mijn&rsquo; vader! mij dunkt, ik zie mijn&rsquo;
+vader!<span class="corr" id="xd21e904" title="Niet in bron">&rdquo;</span></p>
+</div>
+<p class="first xd21e748"><span class="ex">Shakespeare.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first"></p>
+<div class="figure xd21e911width"><img src="images/p23.png" alt="Een verloving." width="549" height="439">
+<p class="figureHead">Een verloving.</p>
+</div>
+<p>Het is nacht, doch het is ons licht genoeg, om de twee mannen, door
+donkere stegen huns weegs gaande, te volgen; volgen wij ze, doch achten
+wij beter op onze schreden dan zij, want dra zullen zij den hoek
+omslaan, dra zullen zij twee anderen voetgangers tegen het lijf
+loopen,&mdash;dan, het kwaad is alreede
+geschied&mdash;verontschuldigingen,<span class="pagenum">[<a id="xd21e917" href="#xd21e917" name="xd21e917">23</a>]</span>&mdash;hoe
+oprecht, zeg het ons, lezer, zoo gij kunt, lees dezen vier lieden in
+het harte, zoo gij die kunst verstaat, wij zijn ze niet
+machtig!&mdash;zijn gewisseld, hoeden&mdash;hoezeer beschadigd, schat
+het, lezer, hier in het duister, schat het, zoo gij, beter dan wij, dit
+artikel te prijzen weet, schat het op dezen onherbergzamen
+tochthoek!&mdash;zijn opgeraapt, men wil elk zijnen weg vervolgen!</p>
+<div class="figure floatLeft xd21e920width"><img src="images/p24.png"
+alt="De Markies." width="158" height="352">
+<p class="figureHead">De Markies.</p>
+</div>
+<p>Doch &eacute;&eacute;n der nieuwstaangekomenen slaakt eenen kreet,
+eenen kreet, die de haren te bergen doet rijzen, eenen kreet, die eenen
+sergeant, welke passeert, doet <span class="corr" id="xd21e926" title="Bron: nadert reden">nader treden</span>&mdash;&ldquo;dit
+medaillon&rdquo;, roept de vreemdeling die hem slaakte, &ldquo;deze
+dame, wie is het?&rdquo;</p>
+<p>&ldquo;Mijne moeder!&rdquo; antwoordde de jongeling&mdash;, en
+Hendrik Jan valt zijnen vader in de armen!&mdash;Wij hebben het recht
+niet, bij de eerste vreugde des wederziens tegenwoordig te zijn, wel,
+om het verhaal van den markies aan te hooren.</p>
+<p>&ldquo;Ik bewoonde het kasteel mijner vaderen met mijne gade, als op
+eenen dag&mdash;ach, nooit vergeet ik dien dag des onheils,&mdash;de
+abt Talleyrand mij met andere heeren bezocht; hij maakte eene snedige
+opmerking&mdash;ik vond geen <i>repartie</i>! Mijne eer was er mede
+gemoeid; de uren verliepen, de gasten waren vertrokken, de nacht
+verging, ach, mijn <i>esprit</i> liet mij volkomen in den steek! Ik kon
+Monsieur<a class="noteref" id="xd21e939src" href="#xd21e939" name="xd21e939src">1</a> zelf zoo <i>spirituel</i>, ik kon den abt, niet
+meer onder de oogen komen! De volgende morgen zag uwen <span class="pagenum">[<a id="xd21e945" href="#xd21e945" name="xd21e945">24</a>]</span>vader vluchten, eenen banneling
+v&oacute;&oacute;r de revolutie! Toen die uitbrak, verbrandde men mijn
+kasteel, uwe moeder stierf, U waande ik verloren!&rdquo;</p>
+<p>Vergeten wij het niet, de markies behoorde tot het wufte <i lang="fr">ancien r&eacute;gime</i>, tot eenen tijd, waarin de fijne
+zet&mdash;het oorspronkelijk <i>cynismus</i>&mdash;het geslaagde
+<i>bon-mot</i>&mdash;oppermachtig den scepter zwaaiden!</p>
+<p>&ldquo;Arme vader! Uw Hendrik Jan leeft! Hoe was het <i>bon-mot</i>
+van Talleyrand? Ook <i>ik</i> ben Franschman vader!&rdquo;</p>
+<p>&ldquo;Eilacy het is mij ontgaan! Doch ter zake! Dit is uwe nicht,
+Catharina. Ik rade u, elkaar te huwen. Aha, ik bespeure alreede&rdquo;,
+vervolgde de markies tot den sergeant, die dit tooneel met ontroering
+had bijgewoond, en die geen ander was, dan onze oude vriend Meester
+Jacob &ldquo;dat komt in orde!&rdquo; Daarop dong de markies plechtig,
+als vader van den jongeling, bij zichzelf als voogd der jonge dame, om
+hare hand en bewilligde die dan minzaam, en in de meest hoofsche
+termen.</p>
+<p>Hendrik Jan wilde zich nu tot den Onbekende wenden, doch deze was
+verdwenen.</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK VI.</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Zij steken de hoofden te zamen&rdquo;.</p>
+</div>
+<p class="first xd21e748"><span class="ex">De Genestet.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first">Wij staan v&oacute;&oacute;r de Tuilerieën,
+bezichtigen dezelve, en volgen het voorbeeld eens slanken jongelings,
+welke de gebouwen zoo juist heeft verlaten om huiswaarts te keeren;
+doch zoo ras heeft deze niet het plein der Tuilerieën, dat zich
+daarv&oacute;&oacute;r uitstrekt, verlaten, zoo ras heeft hij niet voor
+zich heen de eerste noten geneuried van een krijgshaftig lied, of eene
+hand rust op zijnen schouder, een Onbekende, in eenen dichten mantel
+gehuld, welke slechts den neus&mdash;maar welk eenen neus!&mdash;bloot
+laat, staat <span class="pagenum">[<a id="xd21e983" href="#xd21e983"
+name="xd21e983">25</a>]</span>v&oacute;&oacute;r hem, &ldquo;herinner
+u,&rdquo; fluistert de gestalte, &ldquo;herinner u&rdquo; en is
+verdwenen, verdwenen, doch niet z&oacute;&oacute; afdoende, of de
+jongeling is hem nagegaan, nagegaan door enge donkere stegen, nagegaan
+tot in de onoogelijke kleine herberg, in de slecht verlichte kamer, en
+wacht&mdash;welk een nieuwsgierigheid!&mdash;heeft zich
+verscholen&mdash;welk een slimheid!&mdash;beidt&mdash;welk een moed,
+want wie de Onbekende moge zijn, bij het onderhoud, dat volgen zal met
+hem, die talmt, begeert hij gewis geenen getuige!</p>
+<div class="figure floatLeft xd21e986width"><img src="images/p26.png"
+alt="De onbekende." width="191" height="431">
+<p class="figureHead">De onbekende.</p>
+</div>
+<p>Eene wijle&mdash;hoe bange het beiden valt, als men meer dan zes
+voet lang meet, en zich te versteken heeft onder eene wankele
+keukentafel!&mdash;eene wijle, en de personaadje op wien het toeven is,
+verschijnt, mank gaande, den kraag omhoog, den hoed in de
+oogen&mdash;een personaadje die haastig om zich ziet, en den
+eerstaangekomene begroet met de woorden, vol ontzetting, doch niet
+zonder deftigheid, uitgesproken:</p>
+<p>&ldquo;Gij! Wederom gij! Altijd gij!&rdquo;</p>
+<p>&ldquo;Ja ik, prins Talleyrand, ja ik, gij bisschop van Autun, ja
+ik, o vriend van Bonaparte! Ja ik, en altijd ik!&rdquo;</p>
+<p>&ldquo;Maar, maar, wie zijt gij dan toch?&rdquo;</p>
+<p>&ldquo;Mijn naam? Eilieve, monseigneur, wat bate kan mijn naam den
+man brengen, die den Overweldiger om den vinger windt? Noem mij den
+Onbekende! Ik ben de vreemdeling met den graauwen mantel en den
+sluipenden tred, die schor fluisterend en met den vinger wenkend, de
+wereldgeschiedenis maakt! Hadde ik geleefd tijdens <span class="pagenum">[<a id="xd21e1000" href="#xd21e1000" name="xd21e1000">26</a>]</span>den tachtigjarigen oorlog, ik hadde, een
+zendeling der Jezuieten, goedgezinde jongelingen tot samenzweringen
+verleid, ware ik eene halve eeuw later opgetreden, ik zoude de spion
+geweest zijn van eenen Lodewijk, van eenen Richelieu, eene Maintenon!
+Ik ben de stokebrand, die verschijnt en verdwijnt, naar mate kwaad te
+stichten valt, dan niet! In dit geval ben ik een afgezant van vorst
+Metternich!&rdquo;</p>
+<div class="figure xd21e1003width"><img src="images/p27.png" alt="Hooge politiek." width="555" height="554">
+<p class="figureHead">Hooge politiek.</p>
+</div>
+<p>&ldquo;Van Metternich! Van Oostenrijk! Hoe! Hier, in den muil des
+leeuws! Rampspoedige!&rdquo; <span class="pagenum">[<a id="xd21e1009"
+href="#xd21e1009" name="xd21e1009">27</a>]</span></p>
+<p>&ldquo;Tut, Tut, Doorluchtigheid! Mij dunkt, ik bespeure het recht,
+neen, ik vergisse mij niet, het gelaat van prins Talleyrand is
+ondoorgrondelijk, nogtans, <i>die</i> aandoening verbergt het niet! In
+waarheid, edele heer, ontken het slechts niet: uw leeuw verveelt u
+reeds!&rdquo;</p>
+<p>&ldquo;In trouwe, vreemdeling...!&rdquo;</p>
+<p>&ldquo;Met oorlof, <i>wat</i> zegt gij, edele heer?&rdquo;</p>
+<p>&ldquo;Bijloo, in de daad dan, zoo u dit woord uit mijnen mond beter
+bevalt, in de daad dan, sarkastische anonymus, gij voert eene vermetele
+tale!&rdquo;</p>
+<p>&ldquo;Vermetel, het zij, prins, maar waar!&rdquo;</p>
+<p>&ldquo;Eilacy, mijn vriend, de muren hebben ooren!&mdash;maar
+luister, het zij&mdash;wij zijn onder ons,&mdash;gij kunt
+zwijgen,&mdash;wie vermag beter te zwijgen, dan gij?&mdash;gij
+onsterfelijk incognito!&mdash;het zij,&mdash;laat mij het bekennen, u
+kan men toch nietwes vergauwen&mdash;laat mij het harte
+&eacute;&eacute;nmaal verlichten, laat mij eindelijk
+&eacute;&eacute;nmaal mijn leed uitstorten en den last afwentelen, die
+mij drukt, zij het voor eene enkele stonde; ja, hij verveelt mij, ja,
+verveelt mij doodelijk!&rdquo;</p>
+<p>&ldquo;Gansbloet!&rdquo; riep de vreemdeling uit, &ldquo;wat zeide
+ik u?&rdquo;</p>
+<p>&ldquo;Ach mijn vriend,&mdash;wij zijn onbespied?&mdash;dat eeuwige
+vechten! O, dat hij ten leste op ietwes anders zon! En die drie
+houdingen, zegge drie&mdash;drie houdingen!&mdash;gij kent ze, gij
+voelt met mij&mdash;ach hoe zonderlinge zeer hangen ze mij ter kele
+uit! Gewis, gij kent ze, vreemdeling? E&eacute;ne hand in het vest, de
+andere op den rug, dat is er &eacute;&eacute;ne; beide op den rug, dat
+is de tweede, beide armen gekruist op de borst, dat is de
+derde&mdash;dat is al! Ja, &aacute;l, mijn geheimzinnige vriend! Ach
+hoe steekt mij er de walg van! Hoe, heb ik hem daartoe Keizer der
+Franschen gemaakt!&rdquo;</p>
+<p>Eene wijle poosde de kerkvorst-minister, het voorhoofd steunend op
+de hand, toen sprak hij, zuchtend: <span class="pagenum">[<a id="xd21e1035" href="#xd21e1035" name="xd21e1035">28</a>]</span></p>
+<p>&ldquo;En dat is het ergste nog niet&mdash;er is erger,&mdash;veel
+erger,&mdash;luister, vriend, dat ik het u zegge, wat
+Frankrijk&mdash;de wereld, spoedig weten zal,&mdash;het is, eilacy!
+niet langer te verbergen&mdash;het is een <i>secret de
+Polichinelle</i>! een publiek geheim&mdash;hij wordt dik!&rdquo;</p>
+<p>&ldquo;Ha!&rdquo; riep de Onbekende uit &ldquo;de
+rampspoedige!&rdquo;</p>
+<p>&ldquo;Certeyn, man, w&egrave;l rampspoedige! Hij put alle middelen
+uit, hij verweert zich wel&mdash;hij neemt veel beweging, drinkt geen
+bier, geniet luttel slaaps&mdash;hij vindt geen bate.
+Mariënbad,&mdash;Karlsbad zijn nog niet in trek&mdash;wat te doen?
+Dik! Een Caesar!, een soldatenkeizer, dik, corpulent, welk een
+schouwspel! In waarheid, z&oacute;&oacute; zoude men al zoo goed eenen
+Bourbon...&rdquo;</p>
+<p>&ldquo;Eenen Bourbon<span class="corr" id="xd21e1048" title="Niet in bron">,</span>&rdquo; viel de vreemdeling snel in.
+&ldquo;Eilieve, waartoe dan geenen Bourbon?&rdquo;</p>
+<p>Talleyrand zweeg; hij staarde v&oacute;&oacute;r zich henen, de
+trouwe des wispelturigen mans scheen wederom te wankelen, eenen
+Bourbon, mompelde hij, eenen Bourbon, maar hoe Napoleon te storten, hoe
+hem te verjagen?</p>
+<p>Dit was het oogenblik, dat de Onbekende beidde&mdash;de oogen gingen
+bespiedend rond, doch zonder den ontzetten luisteraar onder de
+tafel,&mdash;ontzet over zooveel ontrouw, zooveel ondankbaarheid, zulke
+laagheid!&mdash;te vinden... dan, flonkerend had hij ze in het eind op
+den nog immer peinzenden diplomaat gericht, had gesist:
+&ldquo;Rusland!&rdquo; had de kaars uitgeblazen en was
+verdwenen!&mdash;verdwenen uit onzen roman, maar waarheen, maar voor
+hoelang, maar om wat kwaad te brouwen?</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK VII</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Waar werd oprechter trouw</p>
+<p class="line">Dan tusschen man en vrouw,</p>
+<p class="line">Ter waereld ooit gevonden?&rdquo;</p>
+</div>
+<p class="first xd21e748"><span class="ex">Vondel.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first">De prachtige zalen van de Tuilerieën boden eenen
+<span class="pagenum">[<a id="xd21e1071" href="#xd21e1071" name="xd21e1071">29</a>]</span>somberen aanblik; de armen over elkaar
+geslagen ging de Keizer op en neder. Josephine naderde hem: &ldquo;deze
+scheiding is noodzakelijk&rdquo;, klinkt het dof uit zijnen mond, en de
+toekomstige ex-Keizerin zwijgt, zwijgt gelaten, zwijgt en
+gaat!&mdash;Hendrik Jan, derwaarts ontboden, vervoegde zich op dat
+oogenblik op den drempel; met kieschheid week hij der alsnog zoo hooge
+vrouwe, die snikkend v&oacute;&oacute;r zich heen
+fluistert&mdash;&ldquo;neen, neen, wit kleurt mij beter dan olijfgroen,
+veel, veel beter&rdquo; zijn de woorden, die hij ondanks zich zelf
+opvangt&mdash;en vindt den Keizer nog in tranen.</p>
+<div class="figure floatLeft xd21e1074width"><img src="images/p30.png"
+alt="&ldquo;Deze scheiding is noodzakelijk.&rdquo;" width="265" height="395">
+<p class="figureHead">&ldquo;Deze scheiding is noodzakelijk.&rdquo;</p>
+</div>
+<p>&ldquo;Gij ziet mij weenen, mijn vriend, niet velen, in waarheid,
+zagen Bonaparte dus! Maar ach, dit drage ik niet!&rdquo;</p>
+<p>Bescheiden, innerlijk begaan, vurig wenschende deze smarte te
+lenigen, zag de jongeling toe, inmiddels, de Keizer hernam:</p>
+<p>&ldquo;Kom nader, Kapitein, ik ken u, ik heb van u gehoord, gij zijt
+geen vleier, gelijk die anderen. Gij weet toch wat mij smart,
+spreek!&rdquo;</p>
+<p>&ldquo;Sire, ik gevoele diep, deze scheiding...&rdquo;</p>
+<p>&ldquo;Is noodzakelijk. Maar zeg mij, zeg dan toch, is het waar dat
+het steeds erger wordt, altijd toeneemt, ach, gij zwijgt&mdash;spreekt
+niet tegen&mdash;ach, het is gelijk ik vreeze&mdash;maar besef dan
+toch, maar begrijp dan toch, dit is het begin van het einde&mdash;in
+rouwe, in rouwe is mijne zege verkeerd! Och, ik, de held, de
+veroveraar, bleek, <span class="pagenum">[<a id="xd21e1088" href="#xd21e1088" name="xd21e1088">30</a>]</span>romantisch, interessant...
+niet meer alzoo,&mdash;een buikje, een buikje&mdash;neen, dit drage ik
+niet! O, ik zal sterven aan dit leed...&rdquo;</p>
+<p>Op dit oogenblik werden prins Talleyrand en Fouch&eacute;
+aangediend.</p>
+<p>Te vergeefs trachtte Hendrik Jan, denkende aan het afgeluisterde
+onderhoud van den vorigen dag, zijne ontsteltenis te verbergen, welke
+het den Keizer ondertusschen behaagde toe te schrijven aan sympathie;
+deze drukte hem de hand, &ldquo;blijf&rdquo; sprak
+hij,&mdash;&ldquo;blijf&rdquo; en duwde hem achter zijn stoel
+&ldquo;blijf&rdquo;, als de ministers reeds binnentraden!</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK VIII.</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Een vriend, die mij mijn feilen
+toont.&rdquo;</p>
+</div>
+<p class="first xd21e748"><span class="ex">Van Alphen.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first">&ldquo;E&eacute;n weerhaan ware overigens genoeg
+geweest<span class="corr" id="xd21e1106" title="Niet in bron">,</span>&rdquo; zeide de Keizer ontstemd, als de
+diplomaten binnentraden; en weerhanen waren zij in de daad, de beide
+raadslieden, die op deze barsche woorden nietwes dan een verlegen
+lachje wisten te doen volgen! Prins Talleyrand droeg ditmaal geene
+vermomming als gisteren, doch het praalgewaad des ministers; de kunst
+van den besten <i>tailleur</i> vermocht niet de scheeve schouderen, van
+den vaardigsten <i>coiffeur</i> niet de sluike haren, van den
+bekwaamsten <i>bottier</i> niet de mankheid des machtigen staatsmans te
+verhelen, welke in eenen blauwen rok van goudgestikte zijde, violette
+zijden hozen, citroenkleurige kousen en fijnverlakte schoenen met roode
+hakken, niets meer geleek dan de vos, die hij inderdaad was. Aardde
+Talleyrand naar den vos, zijn metgezel, wiens gelaat de grijnslach
+nimmer verliet, slachtte, in eenen Isabella-kleurigen slipjas,
+scharlaken hozen, kemelharen kousen en schoenen met nikkelen gespen, de
+jakhals, die zich aan de dooden, te lafhartig <span class="pagenum">[<a id="xd21e1118" href="#xd21e1118" name="xd21e1118">31</a>]</span>om de levenden aan te vallen, vergast. Voegen
+wij terloops, bij den hoon, hem door zijn tijdgenooten met zooveel
+billijkheid naar het hoofd geworpen, ons deel, waarde lezer, en
+luisteren wij naar het belangrijk gesprek, dat zijn deftiger metgezel
+met beider meester voert!</p>
+<div class="figure xd21e1121width"><img src="images/p32.png" alt="De weerhanen." width="562" height="522">
+<p class="figureHead">De weerhanen.</p>
+</div>
+<p>&ldquo;Welnu, mijnheer Talleyrand, wat is er?&rdquo; zeide de
+Keizer. &ldquo;Gebruik uwe woorden niet om uwe gedachten te verbergen,
+al raadt gij dit aan anderen aan!&rdquo;</p>
+<p>&ldquo;Uwe Majesteit bewijst mij veel eer, door mijne
+m&eacute;moires te citeeren, en dit nog wel bij voorbaat!&rdquo; luidt
+statelijk doch hoofsch het antwoord.</p>
+<p>&ldquo;Het zij, maar volg uwen eigen raad ditmaal niet!&rdquo;
+<span class="pagenum">[<a id="xd21e1131" href="#xd21e1131" name="xd21e1131">32</a>]</span></p>
+<p>&ldquo;Sire&rdquo;, antwoordde de diplomaat fijntjens, &ldquo;dit
+ware erger dan eene misdaad; dit ware eene fout. Wij wachten Uwe orders
+omtrent den ontdekten afstammeling der Bourbons, den hertog van
+Enghien?&rdquo;</p>
+<p>Napoleon fronste de brauwen. Inwendige strijd kampte in hem.</p>
+<p>De sluwe staatsman glimlachte. Nauw merkbaar, als in scherts,
+fluisterde hij voor zich heen de schijnbaar onbeteekende klanken: pief,
+paf, poef,&mdash;welke klanken maar al te wel door den vorst werden
+begrepen, immers, deze zette zich neder, zuchtte diep en teekende vlug,
+zonder het in te zien, het hem inmiddels door Fouch&eacute; gedienstig
+gereikte doodvonnis<span class="corr" id="xd21e1138" title="Niet in bron">.</span> &ldquo;Nog iets?&rdquo; vervolgde hij.</p>
+<p>&ldquo;Sire&rdquo;, sprak Talleyrand op fluweelen toon<span class="corr" id="xd21e1143" title="Niet in bron">,</span> &ldquo;generaal
+Furioso vraagt verlof zich naar Rusland te begeven. De arts schreef hem
+een verblijf aldaar voor, ter genezing zijner corpulentie.&rdquo;</p>
+<p>&ldquo;Rusland,&mdash;corpulentie&mdash;&rdquo; zeide de Keizer
+verstrooid; Hendrik Jan beefde, het gif had alreede gewerkt, de oogen
+des veldheers flonkerden, hier was eene poorte der hope, hij straalde;
+twee vliegen in &eacute;&eacute;nen klap!</p>
+<p>&ldquo;Generaal Furioso mag naar Rusland gaan&rdquo;&mdash;zeide de
+Keizer op den minzamen toon, welken hij soms kon aannemen. &ldquo;En
+wat hem zeker plezier zal doen... wij gaan mee, ik en het leger! Naar
+Moskou!&rdquo; Hij floot, floot, valsch weliswaar,&mdash;want welke ook
+des Keizers gaven waren, die der muzikaliteit behoorde daartoe
+niet&mdash;maar floot opgewekt. &ldquo;<span lang="fr">Malbrouck
+s&rsquo;en va-t-en guerre!</span><span class="corr" id="xd21e1153"
+title="Niet in bron">&rdquo;</span>&mdash;De geslepen staatsman had
+zijn doel bereikt. Hendrik Jan sidderde. E&eacute;ne poging wilde hij
+nog wagen. Hij wierp zich op de knieën. &ldquo;Sire&rdquo;, bad
+hij, &ldquo;ga niet naar Rusland!&rdquo; &ldquo;Die jongen bevalt
+mij<span class="corr" id="xd21e1156" title="Niet in bron">,</span>&rdquo; mompelde de Keizer ten tweeden
+male&mdash;&ldquo;maar ik ga toch&rdquo;, vervolgde hij, &ldquo;ik ga
+toch&mdash;waarom niet naar Rusland, Kapitein?&rdquo; <span class="pagenum">[<a id="xd21e1159" href="#xd21e1159" name="xd21e1159">33</a>]</span></p>
+<p>Hendrik Jan antwoordde eerbiedig, doch met vrijmoedigheid. Hij
+schetste het klimaat, den afstand... Een oogenblik scheen het, alsof de
+Muze der wereldgeschiedenis Rusland, Elba, Waterloo, St. Helena
+achteloos hadde kunnen voorbijgaan! Hadde Bl&uuml;cher, hadde
+Wellington vermoed, hoe slecht hunne kansen op vermaardheid in deze
+stonde stonden, zij hadden gesidderd, hadden den moedigen jongeling
+gevloekt, wiens scherp verstand den toomeloozen overmoed des
+veroveraars aan het wankelen bracht, wiens trouw de list van een
+Talleyrand trotseerde! Eene huivering doorliep de leden van den
+Corsikaanschen adelaar! En de onze, lezer? Welke beelden doemen voor
+ons op, in dit ondeelbare oogenblik, dat de veroveraar weifelt. Wij
+zien eenen tot rust gekomen Napoleon, den welwillenden landsvader,
+regeerende over een welvarend en vreedzaam volk, wij zien hem algemeen
+geacht, bemind en geprezen, een waardigen ouden dag beleven, met een
+kleinkind op elke knie en &ldquo;l&rsquo;art d&rsquo;&ecirc;tre
+grand-p&egrave;re&rdquo; in de hand... doch, wijk, gij, ontzettend,
+want vergeefsch, gij valsch en bedriegelijk beeld!</p>
+<p>De oogen van den keizer hadden zich gedurende de siddering, die
+zijne leden doorliep, naar omlaag gekeerd, edoch zonder zijne
+rijlaarzen te speuren!... de teerling was geworpen... &eacute;&eacute;n
+oogenblik slechts had de aarzeling geduurd, dan, ze was reeds
+voorbij!&mdash;&ldquo;Ik ga toch&rdquo;, klonk het nogmaals... en
+zwijgend kuste de jongeling de hem minzaam tot afscheid gereikte pink
+des overweldigers&mdash;&ldquo;Ik ga niettemin.&rdquo;</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK IX</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Vroeg in den morgenstond.&rdquo;</p>
+</div>
+<p class="first xd21e748"><span class="ex">Breeroo.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first">Het <i>lever</i> eens Keizers! Verbeeld u, lezer, in
+stede uwer bescheiden doch geriefelijke burgermans-bedstede
+<span class="pagenum">[<a id="xd21e1179" href="#xd21e1179" name="xd21e1179">34</a>]</span>met de pronklooze, doch warme wollen dekens,
+de prachtige met zijde en zorg gespreide praalsponde; in stede uws
+gezelligen alcoofs, de slaaphalle eens Keizers uit het eerste
+Keizerrijk, hoe grootsch en nogtans, hoe kil, hoe weelderig en nogtans,
+hoe somber, hoe ruim en nogtans, hoe rumoerig; grootsch, want zij meet
+30 bij 20, kil want de muren zijn niet behangen met de gemeenzame
+daguerreotypen van dierbare bloedverwanten, weelderig, want goud en
+verguldsel, goudleder en gouddraad sieren ze, somber, want geen lachend
+gelaat van blondgelokte kinderen verheldert ze, ruim, want (zie
+grootsch), rumoerig, <span class="pagenum">[<a id="xd21e1181" href="#xd21e1181" name="xd21e1181">35</a>]</span>merk op hoevelen de
+heiligheid des morgenstonds schenden, aanschouw deze fluisterende
+schare adjudanten, deze bezige groep kamerdienaars, aanschouw eindelijk
+dezen jongeling en deze schoone vrouwe! Geen van beiden zijn ons
+onbekend. Het is Hendrik Jan, die daar staat, Hendrik Jan, de trouwe
+dienaar, Hendrik Jan, die, met de desperatie in het harte, deze laatste
+poging, welbewust van den indruk, welken vrouwelijk schoon op den
+Keizer maakt, is komen wagen. Het is zijne gade, die daar knielt, zijne
+jonge bevallige gade, gekleed, of, meer nog ongekleed volgens de
+toenmaals meer en meer gehuldigde mode van het Empire! &ldquo;Sire, ga
+niet naar Rusland!&rdquo;&mdash;de Keizer heft haar op, niet onheusch,
+hij kust haar op het voorhoofd, hij geleidt haar minzaam naar haren
+echtgenoot ...&mdash;edoch, hij gaat niettemin!</p>
+<div class="figure xd21e1184width"><img src="images/p35.png" alt="&ldquo;Ga niet naar Rusland!&rdquo;" width="550" height="542">
+<p class="figureHead">&ldquo;Ga niet naar Rusland!&rdquo;</p>
+</div>
+<p>De jonge vrouwe richt zich op en bedekt kuischelijk met een sjawl
+van Spaanschen kant den boezem&mdash;hebt gij u gestooten aan haar gul
+d&eacute;collet&eacute;, gij neuswijze juffer van onze dagen met uw
+arglistig bloot nekje, of gij, jongeling met uwen kouwelijken halsdas
+waarvan de slippen&mdash;o verwijfd geslacht!&mdash;u op de knieën
+hangen? Ja, zij is laag gekleed, maar wat de lengte der mouwen betreft
+is deze adellijke dame uwe meerdere in zedigheid, gij burgerdochters
+van mijne kennis,&mdash;ja, haar schoenen zijn spits, doch wat de
+hoogte der hakken aangaat steekt gij, mijne steltloopsters, haar den
+loef af; ja, hare rokken zijn eng, doch niet zoo nauw als de uwe, mijne
+vriendinnen, de uwe, die mij te zamen met uwe &agrave; jour kousen
+omtrent de teekening uwer beenen zoo weinig te raden laten; ja, hare
+keelbanden zijn wereldsch, doch niet zoo onzinnig noch zoo gevaarlijk
+als uwe duivelsche hoedespelden, mijne waarden! Doch verlaten wij haar,
+evenals haar echtgenoot doet, bij de trede van de draagkoets welke
+harer wacht. <span class="pagenum">[<a id="xd21e1190" href="#xd21e1190"
+name="xd21e1190">36</a>]</span></p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK X</h3>
+<div class="epigraph">
+<div class="lgouter">
+<p class="line">&ldquo;Als aapjens te hoog klimmen willen...&rdquo;</p>
+</div>
+<p class="first xd21e748"><span class="ex">Vader Cats.</span></p>
+</div>
+</div>
+<div class="divBody">
+<p class="first">Wij wonen eenen wapenschouw bij, lezer, eenen
+wapenschouw van het leger des grooten keizers! Bewonderen wij de orde,
+waarin ze gerijd staan, deze regimenten, vanaf gerimpelde veteranen met
+lange en ruige mutstatsen, tot baardelooze knapen, candidaten nog voor
+den vuurdoop; doch bewonderen wij niet te lang, doch voegen wij ons bij
+eene groep ruiters, en wel bij het tweetal, dat blijkbaar eenen hoogen
+rang bekleedt, dat het zoo vrijelijk zich tusschen de keurlijk in het
+gelid geschaarde scharen beweegt!</p>
+<p>In de daad, de &eacute;&eacute;n, kort van gestalte, trotsch van
+opslag, is geen ander dan Keizer Napoleon zelve, thans aan het begin
+van den middelbaren leeftijd, en op het keerpunt van zijn roemrijke
+loopbaan, dit laatste onbewust. De tweede is een norsch krijgsman,
+wiens burgerlijke afkomst zich niet verloochenen laat door de
+maarschalks-epauletten op zoo grofgebeende schouderen, de handschoenen
+aan zoo roode en plompe handen. Luisteren wij&mdash;al behoort er moed
+toe den boozen luim des geduchten keizers te trotseeren, want dat hij
+in eenen boozen luim is, bewijzen zijn gefronste brauwen, zijn
+fonkelende oogen, zijne gebalde vuist&mdash;luisteren wij, veilig, hij
+bespeurt ons niet, rust niet zijn blik met onwil op eene groep
+generaals ter linkerzijde, terwijl wij ons ter rechterhand hebben
+opgesteld?</p>
+<p>&ldquo;Ik begeere van mijne veldheeren geene vrekheid, Ney,&rdquo;
+spreekt de Keizer, korsel<span class="corr" id="xd21e1208" title="Niet in bron">,</span> &ldquo;integendeel, ik achte het van hunnen
+plicht een exempel te geven in royale depensies, edoch deze onzinnige
+opschik, deze loszinnige verkwisting!&rdquo; In de daad, de officieren
+des Keizers gingen zich, wat <span class="pagenum">[<a id="xd21e1211"
+href="#xd21e1211" name="xd21e1211">37</a>]</span>hunne kleeding
+aangaat, aan uitsporigheden te buiten, welke in vredestijd nauw te
+vergoelijken waren geweest, hoeveel te minder in eenen tijd, waarin de
+harpije des oorlogs woedde!</p>
+<div class="figure floatLeft xd21e1214width"><img src="images/p38.png"
+alt="Murat." width="187" height="428">
+<p class="figureHead">Murat.</p>
+</div>
+<p>Joachim Murat, de zwager des Keizers, was onder de voorsten. De
+Koning van Napels had zijne kroezige lokken gedekt met eenen steekhoed,
+welks grootte en omvang die onzer dames, welke in het theater zooveel
+protest uitlokken, in de schaduw stellen zoude, gegarneerd met eenen
+vederpluim, welks kostbaarheid eenen echtgenoot van heden ijlings naar
+het sanatorium zoude doen verhuizen. Zijn purperen mantel was opgetooid
+met eenen kraag van hermelijn, welke de opbrengst van een gansch jaar
+zijner landgoederen vertegenwoordigde. Doch zwijgen wij verder van deze
+zwakheden, welke hem en andere dapperen ontcieren, gaan wij voort met
+de aanmerkingen des Keizers op te teekenen, hen betreffend.</p>
+<p>&ldquo;Hij dacht eerst geenen hoed op te zetten<span class="corr"
+id="xd21e1222" title="Niet in bron">,</span>&rdquo; smaalt de
+krijgsvorst, als Murat passeert. &ldquo;Aangekleed gaat uit.&mdash;Wat
+zijn we mooi vandaag&mdash;Ik met mijn pluimstaart&mdash;&rdquo; zulke
+zijn de verachtelijke opmerkingen, welke de veroveraar voor zich henen
+gromt&mdash;dan, hij heeft het reeds vergeten, hij richt zich reeds tot
+zijn armee; hij wijst met plechtig gebaar naar de zon, welke aan den
+hemel staat:</p>
+<p>&ldquo;Herinnert u, soldaten, dat van uit dit hemellichaam ontelbare
+eeuwen op u nederblikken!&rdquo;</p>
+<div class="figure xd21e1228width"><img src="images/p39.png" alt="Napoleon vat eenen jongeling bij het oor." width="526" height="720">
+<p class="figureHead">Napoleon vat eenen jongeling bij het oor.</p>
+</div>
+<p>Het witte paard van den Keizer voert hem langs de <span class="pagenum">[<a id="xd21e1234" href="#xd21e1234" name="xd21e1234">39</a>]</span>gelederen, welke daveren van het &ldquo;Vive
+l&rsquo;empereur!&rdquo;</p>
+<p>De vorst vat eenen majoor, ons niet onbekend, bij het oor...
+&ldquo;Ik zag u te Wagram.&rdquo;&mdash;&ldquo;Ja, Sire!&rdquo;
+&ldquo;Gij zijt nu gehuwd&mdash;ik schenk u de verbeurd verklaarde
+goederen uws vaders. Zoogt uwe vrouw hare kinderen zelf,
+<i>Kolonel</i>?&rdquo;</p>
+<p>&ldquo;Zij heeft er nog geene, Sire.&mdash;Heb dank, Sire!&rdquo;
+want eigenhandig hecht de Keizer onder het geroep van &ldquo;Vive
+l&rsquo;Empereur&rdquo;, het kruis des Legioens van Eer op de borst des
+jeugdigen krijgsmans!</p>
+<p>&ldquo;Geene kinderen! Foei, <i>generaal</i>! Denk aan <i>la
+Patrie</i>!&rdquo; Voort reed de Keizer,&mdash;op Rusland aan, zijnen
+ondergang te gemoet. &mdash;</p>
+<p>Maarschalk Pichegru reed zijnen meester op zijde. &ldquo;Wat nu,
+Sire?&rdquo;<a class="noteref" id="xd21e1254src" href="#xd21e1254"
+name="xd21e1254src">2</a> sprak hij, &ldquo;wat nu, als ik vragen
+mag?&rdquo;</p>
+<p>Maar de Keizer antwoordde niet ... <span class="pagenum">[<a id="xd21e1259" href="#xd21e1259" name="xd21e1259">40</a>]</span></p>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr class="fnsep">
+<p class="footnote"><span class="label"><a class="noteref" id="xd21e939" href="#xd21e939src" name="xd21e939">1</a></span> De latere
+Lodewijk XVIII.&nbsp;<a class="fnarrow" href="#xd21e939src">&uarr;</a></p>
+<p class="footnote"><span class="label"><a class="noteref" id="xd21e1254" href="#xd21e1254src" name="xd21e1254">2</a></span> Deze
+woorden van Pichegru zijn historisch.&nbsp;<a class="fnarrow" href="#xd21e1254src">&uarr;</a></p>
+</div>
+</div>
+<div id="mirelli" class="div1 story"><span class="pagenum">[<a href="#xd21e2523">Inhoud</a>]</span>
+<div class="divHead">
+<div class="figure"><img src="images/p41.png" alt="CORA MIRELLI" width="545" height="460"></div>
+<h2 class="main">CORA MIRELLI</h2>
+<h2 class="sub">(EEN VERHAAL VAN WERELDLIJKE MACHT)</h2>
+</div>
+<div class="divBody">
+<p class="first">Neerslachtig liep koning Harold IV in zijn
+studeerkamer op en neer. Niets ging vandaag zooals het behoorde! Hij
+was &eacute;&eacute;n der voortreffelijkste dichters&mdash;zoo niet de
+voortreffelijkste&mdash;van zijn rijk, maar heden werd het niets dan
+rijmelarij&mdash;een rijmelarij, die de vijf-jarige kroonprins Kuno
+gewis te kinderachtig zou hebben genoemd. Hij was een musicus van den
+allereersten rang, maar zijn harp bracht thans klanken voort, niet
+ongelijk aan de voorjaarsontboezemingen eens katers. Schilder van groot
+talent en verwonderlijke techniek, had hij in een <span class="pagenum">[<a id="xd21e1267" href="#xd21e1267" name="xd21e1267">41</a>]</span>uur verknoeid wat zijn meesterwerk beloofde
+te worden. Zijn minister van financiën was zoo juist heengegaan,
+na vergeefs getracht te hebben zijn anders zoo schranderen vorst, een
+veel beter financier dan hij zelf was, placht hij te erkennen,&mdash;de
+nieuwe belastingwet te verklaren.</p>
+<p>Harold was een buitengewoon schoon en statig man, maar toen hij in
+het voorbijgaan in den Venetiaanschen spiegel blikte, vond hij zijn
+eigen voorkomen bijna terugstootend.</p>
+<p>In het kort, de koning had het land, was onbevredigd, tot niets
+bekwaam. Het was een opmerkelijk toeval, dat zijn gemalin bij de
+dagelijksche ontmoeting van het vorstelijk echtpaar, meer op een
+afstand was geweest dan ooit. Overigens waren gemaal en zoon van haar
+weinig warmte gewend!</p>
+<p>Toen Harold de schoone, hoogbegaafde prinses huwde, had zij het hem
+eerlijk gezegd: &ldquo;<i>Ik kan u niet beminnen; ik kan geen enkel man
+beminnen</i>. Nimmer zal ik u echter,&mdash;<i>of juist
+daarom</i>&mdash;bedriegen.&rdquo; Daarmee had hij genoegen moeten
+nemen.</p>
+<p>Prinses Mathilda van Essen-Nierstadt was het schoonste en meest
+begaafde meisje van haar land. In alles door haar goedhartigen vader
+toegegeven, was zij vrij en frank opgegroeid, omgeven door goeverneurs
+en goevernantes, van wie zij spelenderwijs al het noodige leerde en die
+zij spoedig elk in hun vak overtrof. In alles uitblinkend, heerschte
+zij oppermachtig over het geheele hof. Maar haar hart bleef koud, koud
+voor alles, behalve de prachtverzameling reptielen, welke haar
+koninklijke vader zich gehaast had, haar te schenken, zoodra hij haar
+vreemden hartstocht voor deze dieren had opgemerkt.</p>
+<p>In alles wat haar huwelijk betreft was zij onverschillig. Zij bekeek
+de grootste kostbaarheden met onbewogen blik, behandelde de ter
+bruiloft genoodigde staatshoofden <span class="pagenum">[<a id="xd21e1285" href="#xd21e1285" name="xd21e1285">42</a>]</span>der
+machtigste mogendheden met nauwelijks beleefde achteloosheid en toonde
+zich met geen der schitterende feesten ingenomen. De voorwaarden van
+het huwelijk boezemden haar geen enkel belang in, alleen stond zij er
+op, dat de beide gunstelingen uit haar verzameling, twee jonge
+cobra&rsquo;s, haar zouden vergezellen. Hoewel persoonlijk tot walgens
+toe afkeerig van alle kruipend gedierte, stemde Harold daarin toe.</p>
+<div class="figure xd21e1288width"><img src="images/p43.png" alt="Een ontaarde moeder." width="547" height="458">
+<p class="figureHead">Een ontaarde moeder.</p>
+</div>
+<p>De geboorte van den kroonprins, voor den koning en zijn getrouwe
+onderdanen een reden tot jubelen, vermocht niet hare belangstelling op
+te wekken. Des te meer werd zij ontroerd door den dood van een der
+cobra&rsquo;s, die zich aan het klimaat van Illyrië maar niet kon
+aanpassen. Met <span class="pagenum">[<a id="xd21e1294" href="#xd21e1294" name="xd21e1294">43</a>]</span>meer dan moederlijke zorgen
+verpleegde voortaan de trotsche vrouw, die zeven talen vloeiend sprak
+en in alle kunsten bedreven was, haar overgebleven lieveling. Prins
+Kuno echter werd aan de hoede eener min toevertrouwd, die later door
+eene goevernante werd vervangen. Hij zag zijn koninklijke moeder alleen
+Zondags een kwartier lang, tusschen ontbijt en kerktijd. Wanneer zij in
+een zeer goede stemming was, mocht hij haar de hand kussen.</p>
+<p>Maar laat ons tot Harold terugkeeren, die mistroostig tegen de
+vensterruiten stond te trommelen.</p>
+<p>Plotseling schitterde zijn oog alsof een sterke emotie zich van hem
+meester maakte. Hij hijgde naar adem.</p>
+<p>&ldquo;Daar is zij weer&rdquo;, zeide hij voor zich heen, op
+geagiteerden toon. &ldquo;Hoe schoon is zij! Hoe etherisch! En
+verheven! Als een engel des hemels! Zij zal mij helpen!&rdquo;</p>
+<p>Hij schelde. Nieuw leven was in hem. Een lakei trad binnen.</p>
+<p>&ldquo;Vraag haar, binnen te komen!&rdquo; beval Harold.</p>
+<p>De bediende volgde den blik des konings. &ldquo;Het
+Zigeunermeisje?&rdquo; sprak hij aarzelend.</p>
+<p>&ldquo;Ha! Zigeunermeisje! Gij zijt ontslagen! Gij kunt drie weken
+loon halen bij den major domus. Laat ik u niet meer zien! Zend een
+minder grooten ezel!&rdquo;</p>
+<p>De man ging. Hij was al meermalen z&oacute;&oacute; ontslagen. <i>De
+koning vergat dergelijke kleinigheden.</i></p>
+<p>De lakei kwam terug. De koning meende een anderen te zien. Hij
+vergat zulke gezichten.</p>
+<p>&ldquo;Vraag haar binnen te komen! Houd vol! Dring aan! Zeg, dat ik
+het wensch! Zeg, dat ik verzoek, dat ik smeek!! Doe een beroep op haar
+patriotisme, op haar idealisme, op alles! Ga en keer niet zonder haar
+weer!&rdquo;</p>
+<p>Maar zij was al binnen, zonder kloppen. Als een zonnestraal!
+Doodeenvoudig en toch bewust van hare wondere macht. En sprak:
+<span class="pagenum">[<a id="xd21e1322" href="#xd21e1322" name="xd21e1322">44</a>]</span></p>
+<p>&ldquo;<i>Ik wist het!</i>&rdquo;</p>
+<p>Zij zette zich op Harold&rsquo;s knie en sloeg haar reine oogen tot
+hem op.</p>
+<p>&ldquo;Wie zijt gij, mijn kind?&rdquo; vroeg hij zacht, hare gouden
+lokken streelend.</p>
+<p>&ldquo;Cora Mirelli. En gij zijt de koning. Gij zijt goed. Ik weet
+het. Vader zegt, dat gij niet goed zijt, maar ik weet beter!&rdquo;</p>
+<p>&ldquo;Wie is uw vader?&rdquo;</p>
+<p>&ldquo;Nietsewo.&rdquo;</p>
+<p>Nietsewo, de nihilist! De koning verzonk in gepeins. Maar nu begon
+zij te zingen met hemelsch, heldere stem:</p>
+<div class="lgouter">
+<p class="line">O, Harold, hoogstaand koning!</p>
+<p class="line">Het hof heeft enkel honig,</p>
+<p class="line">Te veel honig is te zoet,</p>
+<p class="line">Al te zoet, dat is niet goed!</p>
+</div>
+<p class="first"></p>
+<div class="figure floatRight xd21e1351width"><img src="images/p45.png"
+alt="Zij nam plaats op zijn knie." width="302" height="436">
+<p class="figureHead">Zij nam plaats op zijn knie.</p>
+</div>
+<p>De vergadering der nihilisten was ongewoon rumoerig. Er was een
+nieuwe spreker opgestaan, die zijn gehoor overal heen wist mee te
+sleepen. Zijn voorkomen, zijn welsprekende taal, zijn geestdrift
+electriseerden de revolutionnaire hoorders. Waarlijk,
+Enneënne&mdash;onder dezen naam had hij zich aangemeld&mdash;had
+meer succes, dan Nietsewo, de groote leider zelf. Deze droeg zijn
+nederlaag schijnbaar kalm, doch met inwendigen nijd en wraakzucht.</p>
+<p>Niemand kon heftiger zijn, dan Enneënne, niemand <span class="pagenum">[<a id="xd21e1359" href="#xd21e1359" name="xd21e1359">45</a>]</span>scherper in zijne uitlatingen <i>tegen het
+koningshuis, de regeering, de wetten</i>.......</p>
+<p>Wie was deze man? Geheimzinnig was zijn verschijnen, even
+geheimzinnig zijn verdwijnen.....</p>
+<p>Wij weten alleen<span class="corr" id="xd21e1369" title="Bron: .">,</span> dat hij een wrat op den linker schouder had,
+<i>precies op dezelfde plaats</i>, waar de natuur koning Harold IV, den
+heerscher van <span class="corr" id="xd21e1375" title="Bron: Illyrie">Illyrië</span>, op dezelfde wijze geteekend
+had!...</p>
+<hr class="tb">
+<p>We vinden koningin Mathilda in haar boudoir. De vorstin is niet
+alleen, want zij spreekt op een teederen toon, dien men niet van haar
+als uit marmer gehouwen lippen zou verwacht hebben. Wie echter zou
+meenen, dat hare zoete woorden tot een der drie aanwezige hofdames
+gericht zijn, zou zich vergissen! Het is Dido, de Cobra, tot wie zij
+spreekt. Mathilda is bezig hoogst eigenhandig de gladde huid van haar
+lieveling met was op te wrijven, terwijl de hofdames met handdoeken,
+zalfjes en borsteltjes gereed staan, om bij het verder toilet de
+behulpzame hand te bieden.</p>
+<div class="figure floatLeft xd21e1383width"><img src="images/p46.png"
+alt="Nietsewo." width="255" height="447">
+<p class="figureHead">Nietsewo.</p>
+</div>
+<p>&ldquo;Ik houd van je, Dido! Je hebt zulke oogverblindende schoone
+oogen. Soms ben ik bang voor je oogen. Wat kun je staren&mdash;staren!
+De koning houdt niet van je, Dido! En Kuno ook niet. Maar ik houd niet
+van hen. Misschien zou ik van ze houden, als ze jou beminden. Ze
+zeggen, dat je riekt. Soms verwijt ik &rsquo;t mij zelf, dat
+<span class="pagenum">[<a id="xd21e1389" href="#xd21e1389" name="xd21e1389">46</a>]</span>ik niet van hen houd. Ze zijn toch mijn man
+en mijn kind! Maar ik kan niet. <i>Wat staar je weer! Ik word bang van
+je.</i> Zie zoo, nu ben ik klaar. Ben je nu niet mooi? Emilia, geef een
+spiegel.&mdash;Wat glanst je huid, Dido! Alle kleuren zijn er in, van
+purper tot cobalt. Geen goud, geen edelgesteente glanst als je
+huid.&mdash;Dames, laat mij met haar alleen.&rdquo;</p>
+<p>Een uur later klopte de hofdame Emilia zachtkens aan het vertrek der
+koningin. Zij verkreeg geen antwoord. Zij klopte een kwartier lang,
+toen waagde zij het, naar binnen te gaan. Met een ijzingwekkenden gil
+kwam zij dadelijk terug...</p>
+<hr class="tb">
+<p>Een statig man schrijdt door de duistere straten. Zorg rimpelt zijn
+geniaal voorhoofd. Het is Enneënne, de nihilist. Hij blijft voor
+het koninklijk paleis staan en haalt een klein busje voor den dag, dat
+hij met aandacht bekijkt. Het is een bom. Het lot heeft hem aangewezen
+om als martelaar voor het nihilisme te sterven. Hij zal den koning
+vermoorden. Waarom wreef Nietsewo zich grijnzend in de handen, zoodat
+zijn dochter, die het zag, zich op staanden voet met hem
+brouilleerde?</p>
+<p>&ldquo;Het duizelt mij&rdquo;, zegt Enneënne, in een
+alleenspraak zijn gemoed lucht gevend. &ldquo;Helaas, wat ben ik
+begonnen? Waarom moet ik de smarten van Satan lijden?&rdquo;</p>
+<p>&ldquo;Al te zoet, dat is niet goed... ja, dat is waar. En
+zeker:</p>
+<p>&ldquo;Het hof heeft enkel honig,&rdquo; dat is niet tegen te
+spreken. Maar toch, in welk een dilemma ben ik geplaatst! Is dit de
+oplossing van het sociale vraagstuk? Moesten Enneënne en Harold IV
+door &eacute;&eacute;n hand sterven? Is de republikeinsche
+regeeringsvorm verkieselijk? Spreek, mijn volk! Zijn mijn wetten zoo
+infaam slecht? Wat heb ik misdaan? Streefde ik niet naar humaniteit,
+vrijheid van <span class="pagenum">[<a id="xd21e1406" href="#xd21e1406"
+name="xd21e1406">47</a>]</span>gedachte, kindervoeding,
+dierenbescherming, enzoovoort? Maar de tijd dringt, ik heb de brandweer
+gewaarschuwd. Zij zal weldra hier zijn. Helaas, Cora Mirelli, waartoe
+hebt gij mij gebracht?&rdquo;</p>
+<p>&ldquo;Laster niet!&rdquo; zegt Mirelli, die ongezien deze
+alleenspraak heeft aangehoord. &ldquo;Denk aan uw gezin! Wanhoop niet!
+Gij zult uit deze moeilijkheid worden gered. Mijn hart zegt het
+mij!&rdquo;</p>
+<div class="figure floatLeft xd21e1411width"><img src="images/p48.png"
+alt="Nog eens Cora." width="316" height="387">
+<p class="figureHead">Nog eens Cora.</p>
+</div>
+<p>Zij verdwijnt en laat hem alleen staan, zoo diep in gedachten
+verzonken, dat hij het luide schellen van de brandweer niet hoort,
+<i>die door hem zelf was gealarmeerd</i>. Hij wordt overreden!</p>
+<p>Eenige ijlings toegeschoten voorbijgangers rapen den ongelukkige
+op.&mdash;Te laat! Hij heeft den geest reeds gegeven. Wie is het? Een
+van de omstanders heeft een brief in de hand, dien hij juist op de bus
+wilde doen. Als hij dezen nog even bekijkt, om te zien, of hij wel
+juist gefrankeerd is, valt zijn oog op den postzegel, en van den
+postzegel op den doode. Hij stoot ontroerd zijn buurman aan. Deze leest
+hardop het randschrift:</p>
+<p>&ldquo;<i>Koning Harold IV</i>&rdquo;. Deze woorden gaan van mond
+tot mond... Een der voorbijgangers houdt zich op een afstand... en
+knarsetandt!... &ldquo;<i>Ontsnapt!... hij is mij ontsnapt!</i>&rdquo;
+mompelt hij. Het is Nietsewo, de nihilist! <span class="pagenum">[<a id="xd21e1431" href="#xd21e1431" name="xd21e1431">48</a>]</span></p>
+<p>De ministerraad was in allerijl bijeengekomen en had kroonprins Kuno
+tot Koning uitgeroepen, onder regentschap van koningin Mathilda. Men
+verwittigde den prins van het tragisch gebeuren. Voor deze meer
+voorkomende eventualiteit is een ceremonieel voorgeschreven, dat de
+vormelijke premier precies opvolgde. Hij maakte drie buigingen, zwaaide
+driemaal met zijn steek, deed drie passen voor-, drie achterwaarts, en
+herhaalde driemaal: &ldquo;De koning is dood; leve de
+koning!&rdquo;</p>
+<div class="figure xd21e1435width"><img src="images/p49.png" alt="&ldquo;De koning is dood; leve de koning!&rdquo;" width="558" height="480">
+<p class="figureHead">&ldquo;De koning is dood; leve de
+koning!<span class="corr" id="xd21e1438" title="Niet in bron">&rdquo;</span></p>
+</div>
+<p>Kuno steeg van zijn hobbelpaard. Hij was een verstandig kind, en
+begreep, dat hij thans moest weenen. Hij leende een zakdoek van den
+kanselier en deed zulks<span class="corr" id="xd21e1443" title="Niet in bron">.</span> Toen hij <span class="pagenum">[<a id="xd21e1446" href="#xd21e1446" name="xd21e1446">49</a>]</span>daarmee
+gedaan had, begaf hij zich aan de hand van den premier naar de
+vertrekken der koningin-weduwe. Zij vonden de hofdames in hevige
+verwarring en droefenis. Men had de koningin met Dido, de
+cobra<span class="corr" id="xd21e1448" title="Niet in bron">,</span>
+alleen gelaten en slechts de slang was overgebleven. Het boudoir bood
+een verschrikkelijk schouwspel. Het ondier lag, na zijn koninklijk
+maal, te slapen, een abnormale dikte gaf de plaats aan, waar zich de
+overblijfselen bevonden van haar, die eens de trotsche Mathilda,
+koningin van Illyrië was geweest....</p>
+<div class="figure floatLeft xd21e1452width"><img src="images/p50.png"
+alt="" width="327" height="405"></div>
+<p>Kuno X staarde vol ontzetting naar het levend graf zijner moeder,
+toen een zachte hand op zijn schouder werd gelegd.</p>
+<p>Cora Mirelli stond naast hem en wees met een lieflijken glimlach
+naar de kroon, die op tafel lag. Zij plaatste die op zijn hoofd.</p>
+<p>En hand aan hand gingen deze twee jonge lieden, <i>terwijl hunne
+gouden haren zich golvend en wuivend met elkaar vermengden</i>, het
+nieuwe leven in... <span class="pagenum">[<a id="xd21e1463" href="#xd21e1463" name="xd21e1463">50</a>]</span></p>
+</div>
+</div>
+<div id="simpel" class="div1 story"><span class="pagenum">[<a href="#xd21e2530">Inhoud</a>]</span>
+<div class="divHead">
+<div class="figure"><img src="images/p51.png" alt="JACK SIMPEL" width="545" height="382"></div>
+<h2 class="main">JACK SIMPEL</h2>
+<h2 class="sub">EEN ZEEVAARTKUNDIGE VERTELLING.</h2>
+</div>
+<div class="divBody">
+<p class="first">Jack Simpel, om U te dienen. Zeebonk van mijn geloof.
+Weeskind, altijd geweest. Een oom was apotheker te Greenwich. Toen ik
+van school gedrost was, omdat het me daar te droog was, besloot oom dat
+ik in zijn zog zou gaan varen. Hij preste me dus om met drankjes,
+poeders en pillen bij zijn klanten te beurten, want hij was van
+gevoelen dat men v&oacute;&oacute;r den mast beginnen moest.</p>
+<p>Ik proefde eens een paar van die drankjes en vond ze zoo leelijk
+smaken, dat ik diep meelij met zijn <span class="corr" id="xd21e1473"
+title="Bron: pati&egrave;nten">patiënten</span> kreeg, die toch
+hun plezier wel opkonden daar ze ziek waren. Ik gooide de fleschjes
+leeg en vulde ze met zeewater. Meestal werden de zieken dan veel te
+gauw beter, wat voor oom schadelijk was.</p>
+<p>Toen oom erachter kwam, vond hij dat er met mij <span class="pagenum">[<a id="xd21e1478" href="#xd21e1478" name="xd21e1478">51</a>]</span>geen land te bezeilen was, en besloot een
+minder teerhartigen bezorger aan te monsteren<span class="corr" id="xd21e1480" title="Niet in bron">.</span></p>
+<p>Het spreekt vanzelf dat ik beleedigd was, en dus plakte ik &rsquo;s
+nachts op oom&rsquo;s deur een papier met dit versje:</p>
+<div class="lgouter">
+<h4>Aan mijn Client&egrave;le.</h4>
+<p class="line">Menschen, &rsquo;k zal dat pilledraaien</p>
+<p class="line">In &rsquo;t vervolg nu maar verdraaien.</p>
+<p class="line">&rsquo;k Stuur geen mensch meer naar de haaien.</p>
+<p class="line">&rsquo;k Werkte toch maar voor de kraaien</p>
+<p class="line">&rsquo;k Wil geen schuld meer op mij laaien,</p>
+<p class="line">Wat &rsquo;k te goed heb laten waaien.</p>
+</div>
+<p class="first"></p>
+<div class="figure xd21e1501width"><img src="images/p52.png" alt="Een oploop." width="569" height="417">
+<p class="figureHead">Een oploop.</p>
+</div>
+<p>Dit opschrift veroorzaakte &rsquo;s morgens in de vroegte, toen oom
+onder zeil was, een heele opschudding. Het <span class="pagenum">[<a id="xd21e1507" href="#xd21e1507" name="xd21e1507">52</a>]</span>was dadelijk overal in de stad bekend dat de
+apotheker Simpel uit de zaken ging en dat niemand zijn rekening
+behoefde te betalen. Er was een oploop, oom die slaapdronken
+v&oacute;&oacute;r het venster verscheen, werd door alle slampampers
+van Greenwich toegejuicht, en de mariniers moesten aanrukken om de
+menigte te verspreiden. Toen oom doorging met zaken doen en disponeerde
+over de uitstaande gelden, werden veel klanten boos en gingen bij hem
+vandaan.</p>
+<p>Onderwijl liep ik langs de havens te lanterfanten. Ik schepte veel
+behagen in het gezelschap der gepensioneerde varensgezellen, die daar
+pijpjes rookten, of als ze geen geld hadden voor tabak, kringetjes
+spuwden en elkaar allerlei verhalen deden, waarnaar ik gretig
+luisterde. Twee invalieden vooral bewonderde ik. De &eacute;&eacute;n,
+Joe Williams, had een houten been. De ander<span class="corr" id="xd21e1511" title="Niet in bron">,</span> Bill Jobson, maar
+&eacute;&eacute;n arm. Eens kregen ze samen ruzie. De twist liep
+z&oacute;&oacute; hoog, dat ze besloten het uit te vechten. Dat was een
+merkwaardige bokspartij! En ze had natuurlijk veel bekijks ook!</p>
+<p>&ldquo;Houd mijn pruim eens vast, kleine landhaai, en een oog in het
+zeil!&rdquo; zei Joe.</p>
+<p>&ldquo;Houd de mijne ook vast, jonge zoetwaterzwabber<span class="corr" id="xd21e1519" title="Niet in bron">,</span>&rdquo; zei Bill.
+&ldquo;Niet kapen, hoor!&rdquo;</p>
+<p>Dat was voor mij een heele eer!</p>
+<p>Ze begonnen te vechten. Men was overeengekomen dat Joe maar
+&eacute;&eacute;n arm mocht gebruiken, en dat Bill zijn
+&eacute;&eacute;ne been stijf moest houden, alsof het van hout was. Het
+gevecht, dat Bill een gebroken neus kostte en Joe een blauw oog, bleef
+onbeslist. Na de vijfde ronde waren ze vergeten waarover de ruzie
+eigenlijk liep, en besloten, die af te gaan drinken. Ze namen hun
+pruimen terug, leenden van mij een shilling, en gingen gearmd naar de
+herberg. <span class="pagenum">[<a id="xd21e1526" href="#xd21e1526"
+name="xd21e1526">53</a>]</span></p>
+<p>Deze gebeurtenis had mijn natuurlijke neiging voor de zee sterk
+aangewakkerd. Mijn oom draaide bij en stemde er in toe, vooral toen ik
+van een neef, die in gedragen zeemanskleeren handelde, een volslagen
+tweedehandsch uitrusting present kreeg. Dezelfde neef wist van een
+kapitein, die bij hem in het krijt stond, een aanstelling als adelborst
+voor mij te bemachtigen. Van Joe kreeg ik een Zuidwester, van Bill een
+verrekijker.</p>
+<div class="figure xd21e1530width"><img src="images/p54.png" alt="Het gevecht der invalieden." width="552" height="404">
+<p class="figureHead">Het gevecht der invalieden.</p>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">II.</h3>
+</div>
+<div class="divBody">
+<p class="first">De kapitein laveerde op het dek van het Zeepaard heen
+en weer, en was zoo uit den koers met zijn gedachten, dat ik dadelijk
+een aanvaring met hem had.</p>
+<p>&ldquo;Zoo! Ben jij de nieuwe adelborst? Zit ik soms al niet genoeg
+met dat kleine grut opgescheept? Ben je al <span class="pagenum">[<a id="xd21e1541" href="#xd21e1541" name="xd21e1541">54</a>]</span>zindelijk? Pas op dat je niet zeeziek wordt,
+kleine vooronderworm dat je bent! Nu, je zit in het schuitje en je moet
+meevaren. Wat is dat, je wordt bleek!&rdquo;</p>
+<p>&ldquo;Ja kapitein, ik voel me een beetje raar. Het schip schudt
+zoo!&rdquo;</p>
+<div class="figure floatRight xd21e1546width"><img src="images/p55.png"
+alt="&ldquo;Ben je al zindelijk?&rdquo;" width="298" height="474">
+<p class="figureHead">&ldquo;Ben je al zindelijk?&rdquo;</p>
+</div>
+<p>&ldquo;Ha, daar hebben we het al! Bootsman!&rdquo;</p>
+<p>&ldquo;Hier, kapitein!&rdquo;</p>
+<p>&ldquo;Jongeheer Simpel moet in den mast. Als hij zich niet vlug
+naar boven werkt, help je hem maar met de handspaak. Is er nog
+plaats?&rdquo;</p>
+<p>De bootsman keek in zijn notitieboekje.</p>
+<p>&ldquo;Links in de groote ra is no. 3 nog open, kapitein.&rdquo;</p>
+<p>&ldquo;Zoo,&rdquo; zei de kapitein grimmig. &ldquo;Vooruit maar! Dat
+is het eenige voor zeeziekte.&rdquo;</p>
+<p>Ik had heel veel moeite om boven te komen, daar het klimmen in een
+mast nieuw voor me was. Maar de bootsman porde me van achter met de
+handspaak zoo, dat ik niet anders kon.</p>
+<p>Eindelijk was ik bij een been aangeland dat over de ra hing. Ik
+klemde me eraan vast.</p>
+<p>&ldquo;Heila!&rdquo; zei een booze stem. &ldquo;Wat moet je? Blijf
+daar niet hangen! Erop of eraf! Hijsch je op als je hier moet
+wezen!&rdquo;</p>
+<div class="figure xd21e1570width"><img src="images/p56.png" alt="In den mast." width="550" height="391">
+<p class="figureHead">In den mast.</p>
+</div>
+<p>Toen ik met moeite dit bevel had uitgevoerd, praaide <span class="pagenum">[<a id="xd21e1576" href="#xd21e1576" name="xd21e1576">55</a>]</span>ik een tiental collega&rsquo;s. De oudste,
+O&rsquo;Brien, deelde me mee dat hij daar zoo goed als altijd zat.
+&ldquo;Als den ouwe z&rsquo;n weerglas op stormachtig staat, zit men
+hier soms een heele week in de takels.&rdquo; Nu staken ze van wal met
+dit:</p>
+<div class="lgouter">
+<h4>Adelborstenlied.</h4>
+<div class="lg">
+<p class="line">De ouwe is uit kooi gestapt</p>
+<p class="line">Met zijn verkeerde been!</p>
+<p class="line">Hij vloekt de equipage stijf</p>
+<p class="line">En jaagt ons dan hierheen.</p>
+</div>
+<div class="lg">
+<p class="line">Maar och, wij zijn daaraan gewend</p>
+<p class="line">En hebben &rsquo;t hier wat best!</p>
+<p class="line">We leggen een kaartje, we rooken een pijp,</p>
+<p class="line">En slapen voor de rest.</p>
+</div>
+<span class="pagenum">[<a id="xd21e1599" href="#xd21e1599" name="xd21e1599">56</a>]</span>
+<div class="lg">
+<p class="line">We zitten hoog, we zitten droog.</p>
+<p class="line">De lucht is lekker frisch,</p>
+<p class="line">Je ruikt hier niet, als op het dek</p>
+<p class="line">Pek, teer en zoutevisch.</p>
+</div>
+<div class="lg">
+<p class="line">De ouwe denkt dat hij ons straft,</p>
+<p class="line">Met honger en met dorst,</p>
+<p class="line">We hebben altijd proviand,</p>
+<p class="line">Lang leve d&rsquo; adelborst!</p>
+</div>
+<div class="lg">
+<p class="line">Wij eten de beste scheepsbeschuit</p>
+<p class="line">En drinken kaapschen wijn,</p>
+<p class="line">Die hebben we stiekum afgetapt,</p>
+<p class="line">Uit het vat van den kapitein!</p>
+</div>
+<div class="lg">
+<p class="line">De zeewind geeft hier appetijt,</p>
+<p class="line">Nooit zit je voor den mast,</p>
+<p class="line">En moeten wij weer naar ben&ecirc;e</p>
+<p class="line">Dat spijt ons allen vast.</p>
+<p class="line xd21e1636">Hoezee!</p>
+</div>
+</div>
+<p class="first">&ldquo;Maar zeg eens, Groentje,&rdquo; riep
+O&rsquo;Brien, op wiens knie ik had moeten plaats nemen. &ldquo;Heb je
+al kennis gemaakt met de kat?&rdquo;</p>
+<p>&ldquo;Kat? Neen, ik heb geen kat gezien, meneer!&rdquo;</p>
+<p>&ldquo;Denk er om, de kat is aan boord van een <span class="corr"
+id="xd21e1644" title="Bron: oorlogschip">oorlogsschip</span> een
+gewichtig <span class="corr" id="xd21e1647" title="Bron: personnage">personage</span>. Vraag den bootsman. Maar wacht: Je
+hebt de zeebaboe toch al gekust?&rdquo;</p>
+<p>&ldquo;Moet dat?&rdquo;</p>
+<p>&ldquo;Daar kun je absoluut niet buiten, jongetje.&rdquo;</p>
+<p>Toen ik beneden kwam, en den bootsman vroeg, met de kat kennis te
+maken, grijnsde hij, en riep den bootsmansmaat. Voor ik het wist had ik
+kennis gemaakt met de kat met zeven staarten. De lust verging me, toen
+de kennismaking voorbij was, naar de zeebaboe te vragen. Ik heb haar
+dan ook nooit gezien. <span class="pagenum">[<a id="xd21e1657" href="#xd21e1657" name="xd21e1657">57</a>]</span></p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">III.</h3>
+</div>
+<div class="divBody">
+<p class="first">Zeelui zijn excentriek. Ze hebben bijna altijd elk een
+dwaze eigenaardigheid. Dit treft gelukkig voor den schrijver van
+zeevaartkundige verhalen, die anders te flauw zouden worden, met
+zeewater en al. De bemanning van Het Zeepaard maakte geen uitzondering
+op dezen regel.</p>
+<div class="figure floatLeft xd21e1664width"><img src="images/p58.png"
+alt="Stuurman en dokter." width="285" height="438">
+<p class="figureHead">Stuurman en dokter.</p>
+</div>
+<p>De kapitein had zelfs twee eigenaardigheden. Primo vloekte hij
+verbazend en secundo loog hij verschrikkelijk. In het vloeken was hij
+bepaald No. 1. Als leugenaar moest hij evenwel de vlag strijken voor
+den eersten stuurman Ferm, die hierin elkeen den loef afstak.</p>
+<p>Maar het liegen was Ferm&rsquo;s eenige excentriciteit niet. Hij had
+er nog &eacute;&eacute;n, die niet minder vermakelijk was. Hij stond
+n.l. erg graag op zijn hoofd. Dat was zijn grootste liefhebberij. Als
+de bekwame zeerob het maar even lappen kon, hopsa, daar stond hij weer
+op zijn hoofd. Hij gaf zijn beste orders, op zijn hoofd staande. En hij
+loog het beste, in die houding.</p>
+<p>Nu was er iemand op het schip, die deze laatste gewoonte van Ferm
+niet uit kon staan. Dat was de heer Kwak, onze scheepsdokter, een
+platboomsvaartuig met korte masten en boegsprieten. Het liegen kon hem
+niet schelen, maar hij haatte den stuurman om dat op zijn <span class="pagenum">[<a id="xd21e1674" href="#xd21e1674" name="xd21e1674">58</a>]</span>hoofd staan. En als deze in die houding braaf
+er op los loog, of commandeerde: &ldquo;Aan lij! Bakboord houden! Reef
+het topzeil!&rdquo; of iets dergelijks, kwam de scheepsdokter en kneep
+hem in de kuiten. Dan sloeg Ferm om. Stond Ferm een goed half uur op
+zijn hoofd en bleef de dokter uit zijn vaarwater, dan werd zijn gelaat
+heelemaal donker. Dan zeiden onze branikragen: Ferm liegt weer dat hij
+zwart ziet.</p>
+<p>Een van zijn geliefkoosde verhalen was, dat hij eenmaal als jongen,
+heelemaal alleen, een schip buit had gemaakt. Avontuurlijk van aard als
+ik was, besloot ik, dit ook te doen.</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">IV.</h3>
+</div>
+<div class="divBody">
+<p class="first">Ik maakte O&rsquo;Brien deelgenoot van mijn plan, en
+zoo slopen we op een nacht stilletjes van boord, nadat wij onze
+voorbereidselen hadden getroffen, en namen proviand mee. Het was stil
+we&ecirc;r. Lang zwalkten we in ons kleine bootje rond, zonder een
+schip te zien. Eindelijk kregen we er een in de gaten.</p>
+<p>Het dek van het vijandelijk schip zag er verlaten uit, maar op de
+voorplecht stond een man, in gedachten verzonken. Aan zijn tuigage
+zagen we, dat het de admiraal was. Wij legden zachtjes aan, en stil als
+een muisje kroop O&rsquo;Brien op het dek. Snel had hij den
+verstrooiden admiraal een prop in den mond gestopt, zijn handen
+gebonden, hem opgepakt en in ons bootje gegooid. De wacht sliep. Die
+zorgelooze Franschen!</p>
+<p>Ik ving den verbluften admiraal op en we maakten dat we
+wegkwamen.</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">V.</h3>
+</div>
+<div class="divBody">
+<p class="first">Toen we ons eigen schip hadden bereikt en onzen
+<span class="pagenum">[<a id="xd21e1692" href="#xd21e1692" name="xd21e1692">59</a>]</span>gevangene op dek geheschen, kwam de kapitein
+woedend op ons af. Wij kregen den wind van voren!</p>
+<p>&ldquo;Wat is dat? Wie gaf jullie nachtpermissie?&rdquo; loeide hij,
+met vloeken.</p>
+<div class="figure xd21e1697width"><img src="images/p60.png" alt="De Fransche admiraal gevangen." width="549" height="494">
+<p class="figureHead">De Fransche admiraal gevangen<span class="corr"
+id="xd21e1700" title="Niet in bron">.</span></p>
+</div>
+<p>&ldquo;Wij hebben den Franschen admiraal gevangen, kapitein&rdquo;,
+zei ik. &ldquo;Hier is hij&rdquo;.</p>
+<p>&ldquo;Zoo&rdquo;, zei hij knorrig. &ldquo;Dat is geen excuus! In
+den mast jullie! Ik moest je laten kielhalen!&rdquo; Nieuw gevloek
+natuurlijk.</p>
+<p>Juist wilden we mopperend dit bevel opvolgen, toen de mast door een
+kanonskogel werd omgegooid. De <span class="pagenum">[<a id="xd21e1709"
+href="#xd21e1709" name="xd21e1709">60</a>]</span>Franschen hadden het
+verlies van hun vlootvoogd opgemerkt en vielen aan.</p>
+<p>De strijd duurde kort. Wij enterden mosjeu, doodden de equipage,
+voor zoover ze zich niet overgaf, en namen het schip in bezit. Onze
+pikbroeken hadden het druk met het zwabberen van het bebloede dek,
+waarbij ze genoegelijk hun energiek zeemanslied aanhieven.</p>
+<div class="figure xd21e1714width"><img src="images/p61.png" alt="Het gezang na den strijd." width="556" height="370">
+<p class="figureHead">Het gezang na den strijd.</p>
+</div>
+<div class="lgouter">
+<h4>Matrozenlied.</h4>
+<div class="lg">
+<p class="line">Een schip in zicht, een schip in zicht!&mdash;Ahoy!</p>
+<p class="line">Nu doet elk Engelschman zijn plicht!&mdash;Ahoy!</p>
+<p class="line">Wij maken het natuurlijk buit!</p>
+<p class="line">En smijten den Fransoos er uit!</p>
+<p class="line xd21e1730">Ahoy! ahoy! ahoy!</p>
+<p class="line xd21e1730">Ahoy! ahoy! ahoy!</p>
+</div>
+<span class="pagenum">[<a id="xd21e1734" href="#xd21e1734" name="xd21e1734">61</a>]</span>
+<div class="lg">
+<p class="line">Dan krijgt Janmaat een oorlam toe!&mdash;Ahoy!</p>
+<p class="line">En daarom roept hij blij te moe:&mdash;Ahoy!</p>
+<p class="line">Hij drinkt den rum niet aangelengd!</p>
+<p class="line">Hij lust jenever ongemengd!</p>
+<p class="line xd21e1730">Ahoy! enz.</p>
+</div>
+<div class="lg">
+<p class="line">Van binnen en van buiten nat,&mdash;Ahoy!</p>
+<p class="line">Een liefje in elke havenstad!&mdash;Ahoy!</p>
+<p class="line">Hij vecht en vrijt en zuipt en zingt,</p>
+<p class="line">Tot &rsquo;t &ldquo;Een, twee, drie in godsnaam!&rdquo;
+klinkt.</p>
+<p class="line xd21e1730">Ahoy! enz.</p>
+</div>
+<div class="lg">
+<p class="line">Een haai slokt Janmaat op&mdash;o wee!&mdash;Ahoy!</p>
+<p class="line">Dat hapje valt hem lang niet mee!&mdash;Ahoy!</p>
+<p class="line">De haai bromt: &ldquo;bah, alweer zoo&rsquo;n lid!</p>
+<p class="line">Jamaica-rum en negerhit!&rdquo;</p>
+<p class="line xd21e1730">Ahoy! ahoy! ahoy! enz.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">VI.</h3>
+</div>
+<div class="divBody">
+<p class="first">Ik stond erg in de gunst van den eersten stuurman en
+daaraan had ik het te danken dat ik &rsquo;s Zondags aan de
+officierstafel mocht eten. De kapitein dineerde alleen, maar aangezien
+hij zichzelf geen jokkens kon opdisschen, voegde hij zich met het
+dessert graag bij het gezelschap. Dan ging hij aan het opsnijden.</p>
+<p>&ldquo;Heb ik de heeren al eens verteld van de muiterij aan boord
+van de Anna?&rdquo; Nu dan, ik was&mdash;even kijken&mdash;dertien
+jaar, en al eerste officier. Ja, ik heb vlug promotie gemaakt. Weten de
+heeren, waarom ik nog geen admiraal ben? Eenvoudig, omdat ik altijd
+bedank. Ik zeg tegen den koning&mdash;we zijn heel
+eigen&mdash;&ldquo;George, mijn jongen, laat me waar ik ben, want
+hooger dan admiraal is er niet, en een mensch moet altijd iets hebben
+om op aan te sturen.&rdquo; Toen drong hij er niet langer op aan.
+&ldquo;Je <span class="pagenum">[<a id="xd21e1775" href="#xd21e1775"
+name="xd21e1775">62</a>]</span>bent een filosoof, Peter,&rdquo; zei
+hij. &ldquo;Dat ben ik ook George,&rdquo; zei ik. Nelson nam het me een
+beetje kwalijk, maar daar maalde ik niet om; hij kon me toch niet over
+boord gooien.</p>
+<div class="figure xd21e1778width"><img src="images/p63.png" alt="De kapitein vertelt." width="564" height="498">
+<p class="figureHead">De kapitein vertelt.</p>
+</div>
+<p><span class="corr" id="xd21e1783" title="Niet in bron">&ldquo;</span>Maar waar ben ik gebleven? O ja, onze
+kapitein was een beste kerel, maar hij was even als ik, een doodvijand
+van twee verd. zeemansondeugden: vloeken en liegen. Hij sloot de lui
+gewoon in de ijzers, als ze zich daaraan schuldig maakten. Zoo zaten op
+een goeden dag de beide stuurlui, de bootsman en drie kwart van de
+equipage in de boeien. De anderen hadden het natuurlijk daardoor
+driedubbel druk, en daarom sloegen ze aan het muiten. <span class="pagenum">[<a id="xd21e1786" href="#xd21e1786" name="xd21e1786">63</a>]</span>Ik plaatste me naast den commandant en zoo
+hielden wij, een revolver in elke vuist, de bende drie dagen lang in
+bedwang. Maar intusschen waren we op een klip geloopen. Het schip
+spleet en we kelderden allemaal. Toen ik bijkwam, de eenig overlevende
+van de &ldquo;Anna&rdquo;, begreep ik, dat het met mij ook gedaan zou
+zijn, als ik niet spoedig zorgde iets te grijpen om mij drijvende te
+houden. Daar hoorde ik op eens in de buurt een vervaarlijk gebriesch en
+gesnuif. Ik zwom er heen. Wat denkt u dat het was? Een groot zeepaard,
+zoowaar als ik leef! Ik greep het bij de manen, klom op zijn rug, en
+bleef zoolang rondzwemmen, hem mennend waarheen ik wou, (ik ben een
+voortreffelijk ruiter) tot ik een schip ontmoette. Ter gedachtenis aan
+die wonderbare redding heet mijn schip nu, zooals u weet<span class="corr" id="xd21e1788" title="Bron: ;">,</span> het Zeepaard, en dat is
+het beste bewijs voor de waarheid van mijn verhaal&rdquo;.</p>
+<div class="figure xd21e1792width"><img src="images/p64.png" alt="Avontuur van den kapitein." width="562" height="355">
+<p class="figureHead">Avontuur van den kapitein.</p>
+</div>
+<p>Ferm was gedurende de vertelling van den kapitein <span class="pagenum">[<a id="xd21e1798" href="#xd21e1798" name="xd21e1798">64</a>]</span>heel onrustig geworden, en toen ze afgeloopen
+was, ging hij op zijn hoofd staan.</p>
+<p>&ldquo;Dat is allemaal niets,&rdquo; zei hij, &ldquo;bij wat ik
+beleefd heb.&rdquo;</p>
+<p>&ldquo;Denk er om, Ferm,&rdquo; zei de kapitein streng, &ldquo;kom
+me met geen leugens aan boord!&rdquo;</p>
+<p>&ldquo;Wie praat van liegen,&rdquo; zei Ferm<span class="corr" id="xd21e1806" title="Bron: ,">.</span> &ldquo;Ik mag gebreeuwd worden als
+ik niet de zuivere waarheid vertel! Maar ik zal de heeren het bewijs
+toonen, als ik zoover ben.</p>
+<div class="figure xd21e1810width"><img src="images/p65.png" alt="Avontuur van den stuurman." width="558" height="463">
+<p class="figureHead">Avontuur van den stuurman.</p>
+</div>
+<p>&ldquo;Ik voer dan&mdash;het mag nu twintig jaar geleden
+zijn&mdash;als licht matroos op de &ldquo;Admiraal Monk&rdquo;. Wij
+waren ergens aan de kust van Noord-West Liberia geankerd om wat
+ebbenhout (d. w. z. negerslaven) op te nemen. Ik had een vrijen dag
+gekregen, en keerde &rsquo;s avonds laat met een <span class="pagenum">[<a id="xd21e1817" href="#xd21e1817" name="xd21e1817">65</a>]</span>nat zeil naar boord terug. Toen ik nu langs
+het eenzame strand een deuntje liep te fluiten, hoorde ik opeens een
+liefelijke stem, die iets geheimzinnig tooverachtigs had, een lied in
+een vreemde taal zingen. Ik had in geen jaar een vrouwmensch gezien of
+gesproken en ik moet zeggen, heeren, dat die stem me finaal in den
+grond boorde!</p>
+<p><span class="corr" id="xd21e1820" title="Niet in bron">&ldquo;</span>Het was een zeemeermin, een beeldschoon
+vrouwspersoon van boven, maar van onderen een visch. Ze deed
+allemachtig aanhalig, maar ik heb een wijf en zes kinderen thuis en
+zei, dat ik bezet was. Toen had u moeten hooren hoe ze te keer ging! Ze
+was razend op me gesteld, op het eerste gezicht, en wou me maar al
+rauwe visch opdringen, die ze zoo maar met het handje ving. Het kostte
+me heel wat moeite van haar af te komen, maar toen we van elkaar
+gingen, gaf ze me haar portret. Hier is het. Als dat geen bewijs is dat
+ik waarheid spreek, dan weet ik het niet.&rdquo; We bekeken het.</p>
+<p>&ldquo;Ik zie geen visschenstaart,&rdquo; zei de heer Kwak.</p>
+<p>&ldquo;Hoe wou je dat de staart er op stond&rdquo;<a id="xd21e1827"
+name="xd21e1827"></a> zei Ferm minachtend, &ldquo;bij een gewoon
+buste-portret? Ja, ze zal zich van onderen laten uitschilderen! Ze wist
+ook wel dat ze van boven mooier was.&rdquo;</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">VII.</h3>
+</div>
+<div class="divBody">
+<p class="first">We stevenden naar het vaderland terug. Toen ik in
+Greenwich aankwam, werd ik heel feestelijk ontvangen. Joe en Bill
+stonden me op te wachten in hun beste tuig. Ze hadden hun roer recht
+weten te houden, en dat was wel een bewijs van hun vriendschap. Overal
+waren vlaggen uitgestoken en jongejuffers boden ruikers aan.</p>
+<p>&ldquo;Wat is er aan de hand,&rdquo; vroeg ik verbaasd.</p>
+<p>&ldquo;Weet je dat niet?&rdquo; riepen Joe en Bill tegelijk, met
+stemmen als lekke scheepsroepers. De verklaring is niet moeilijk.
+<span class="pagenum">[<a id="xd21e1838" href="#xd21e1838" name="xd21e1838">66</a>]</span></p>
+<p>Mijn vader was de achter-achterneef van Lord Whizzlewhist.</p>
+<div class="figure xd21e1842width"><img src="images/p67.png" alt=""
+width="563" height="434"></div>
+<p>Op een goeden dag had deze edelman de vijfentwintig tusschen mij en
+de erfopvolging staande familieleden ten eten. Men at per abuis
+vergiftigde paddestoelen&mdash;ik bleef erfgenaam. Ik werd ziek van
+schrik, maar toen ik opgekalefaterd was, nam ik mijn rechten in bezit.
+De tegenwoordige Lord Whizzlewhist zal u gaarne op zijn kasteel
+ontvangen en staat in voor de paddestoelen die hij zijn gasten zal
+voorzetten. <span class="pagenum">[<a id="xd21e1846" href="#xd21e1846"
+name="xd21e1846">67</a>]</span></p>
+</div>
+</div>
+</div>
+</div>
+<div id="roodhuid" class="div1 story"><span class="pagenum">[<a href="#xd21e2537">Inhoud</a>]</span>
+<div class="divHead">
+<div class="figure"><img src="images/p68.png" alt="ROODHUID EN BLEEKGEZICHT." width="560" height="409"></div>
+<h2 class="main">ROODHUID EN BLEEKGEZICHT.</h2>
+<h2 class="sub">INDIAANSCHE NOVELLE.</h2>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK I. <i>De Blauwe Vos.</i></h3>
+</div>
+<div class="divBody">
+<p class="first">Het is het recht van den romanschrijver, zonder
+voorafgaande plichtplegingen, den lezer te midden zijner <span class="corr" id="xd21e1859" title="Bron: personnages">personages</span> te
+voeren. Wij maken derhalve daarvan gebruik en beluisteren het gesprek
+van vier mannen, die zich om gindsch houtvuur hebben geschikt.</p>
+<p>E&eacute;n van hen, een Indiaan van deftig voorkomen en middelbaren
+leeftijd, is beleefd, doch met eenig wantrouwen ontvangen. Het was zijn
+drie blanken metgezellen niet onbekend, dat het verkeer met Roodhuiden
+eigenaardige moeilijkheden en zelfs gevaren oplevert.</p>
+<p>Gustaaf, de jager, was het meest doorkneed in den sierlijken, doch
+waar het pas geeft, tevens niet weinig <span class="pagenum">[<a id="xd21e1866" href="#xd21e1866" name="xd21e1866">68</a>]</span>stekeligen
+conversatietoon, welke de Indianen zoo gelukkig weten te treffen.</p>
+<p>&ldquo;Als ik mij niet vergis&rdquo;, begon hij, &ldquo;heb ik de
+twijfelachtige eer met een Slangen-Pawnee te spreken?&rdquo;</p>
+<p>De nauwgezette Indiaan nam nu zijn calumet (pijp) en om te toonen,
+dat hij aan dit gesprek veel gewicht hechtte, vulde hij die met
+mochichei (gewijde tabak). Na een paar trekken bood hij de pijp aan den
+jager, die er ernstig aan zoog en ze vervolgens doorgaf aan Edelhart.
+Deze beiden wisten de eer op prijs te stellen. Niet aldus echter El
+Pantero, die minder vertrouwd was met de gebruiken der Roodhuiden in
+het algemeen en van de Slangen-Pawnees in het bijzonder. Toen de
+vredespijp hem bereikte, wischte hij met zijn zakdoek het mondstuk af,
+een doodelijke beleediging in het oog van hun nieuwen bekende, die
+hiervan weliswaar niets liet bemerken, doch er des te meer over na
+bleef mokken, zooals wij zullen zien v&oacute;&oacute;r deze roman ten
+einde is.</p>
+<p>Na de pijp met de ongemaakte bevalligheid zijns stams weerom te
+hebben genomen, begon de Sachem:</p>
+<p>&ldquo;De Waconda is machtig. Hij ademde den grooten hoofdman de
+woorden in, die zijn mond weer uitblaast.</p>
+<p>&ldquo;De Apachen zijn klapachtige oude wijven. Een groot opperhoofd
+zegt het! De jakhalzen verwaardigen zich niet hunne verpeste lijken te
+verslinden. De zitdeelen der Apachen zijn platgetrapt door hun eigen
+hielen bij de razende vlucht voor den Slangen-Pawnee. Hun geraamten
+zweeten nog in de graven van de hijgende haast, waarmee zij bij hun
+leven vloden voor de zuigelingen van mijn stam! Hunne achterkleinzonen
+zullen nog lijden aan piependen adem en hartebons, tengevolge van de
+ijlende vaart, waarmee hun voorvaderen aan den haal gingen voor den
+Blauwen Vos en zijn broeders.</p>
+<p>&ldquo;De Slangen-Pawnee is de koning der prairiën. De
+<span class="pagenum">[<a id="xd21e1880" href="#xd21e1880" name="xd21e1880">69</a>]</span>Blauwe Vos is het grootste opperhoofd der
+Slangen-Pawnees. De Blauwe Vos is een goed vriend, een verschrikkelijke
+vijand. <i>Ik ben de Blauwe Vos.</i>&rdquo;</p>
+<p>Geen der aanwezigen wist hieraan iets toe te voegen. De Blauwe Vos
+scheen dat ook niet te verwachten, maar vervolgde, na een korte pauze,
+op honigzoeten toon:</p>
+<p>&ldquo;Hoe denken mijn bleeke broeders over de Apachen? De ruige
+jager der bleekgezichten spreke! Een groot opperhoofd luistert. De
+wijsheid van zijn beide grootvaders bezielt de woorden van den ruigen
+jager der bleekgezichten!&rdquo;</p>
+<p>Maar Gustaaf wist wat het beteekent als de Slangen-Pawnees u
+complimentjes maken!</p>
+<div class="figure floatLeft xd21e1893width"><img src="images/p70.png"
+alt="De jager." width="268" height="311">
+<p class="figureHead">De jager.</p>
+</div>
+<p>&ldquo;Ben ik een oude vrouw, hoofdman?&rdquo; antwoordde
+hij<span class="corr" id="xd21e1899" title="Niet in bron">,</span>
+&ldquo;dat gij mij door vleiende woorden de tong hoopt te doen draven
+als een hengst met den kolder in den kop?&rdquo;</p>
+<p>&ldquo;Mijn broeder Pelsgezicht heeft naar den Spotvogel geluisterd,
+de Spotvogel is een leugenachtige en bedriegelijke Vogel<span class="corr" id="xd21e1904" title="Niet in bron">,</span>&rdquo; zeide de
+Blauwe Vos.</p>
+<p>De hoofdman boog ietwat spijtig en vertrok. Een half uur nadat de
+Blauwe Vos onze vrienden verlaten had, werd plotseling de welbekende
+kreet der Commanchen vernomen.</p>
+<p>Inderdaad naderde een troep krijgers van dezen stam met de
+gebruikelijke, omslachtige beleefdheden. Hunne gelaatstrekken zouden
+innemend zijn geweest, zonder de uitvoerige beschilderingen, waarmede
+een zeker verkeerd <span class="pagenum">[<a id="xd21e1911" href="#xd21e1911" name="xd21e1911">70</a>]</span>schoonheidsgevoel hen
+genoopt had ze te bedekken.</p>
+<p>Het Stille Water, de aanvoerder, nam nu het woord.</p>
+<p>&ldquo;Opent uwe ooren wijd, bleekgezichten, het groote opperhoofd
+Het Stille Water spreekt. Het Stille Water houdt niet van babbelen. Het
+Stille Water spreekt in zeven dagen niet zooveel woorden als er scalpen
+aan zijn gordel bungelen. Nochtans spreekt hij tot u. Ziehier zijn
+zonen. Hun arm is sterk, hun hart dapper, hun tong niet leugenachtig,
+hun maag leeg&rdquo;.</p>
+<div class="figure xd21e1918width"><img src="images/p71.png" alt="Plichtplegingen ter begroeting." width="564" height="391">
+<p class="figureHead">Plichtplegingen ter begroeting.</p>
+</div>
+<p>Hierop antwoordde de jager, na de gebruikelijke plichtplegingen,
+daar de Commanchen veel hechten aan etiquette:</p>
+<p>&ldquo;Het Edele Hart, de Panter en mijn persoon groeten den
+machtigen stam der Commanchen zeer. Wij hebben geen gespleten tong.
+Onze huid is blank, maar ons hart is rood, ons eten nog niet
+op!&rdquo;</p>
+<p>&ldquo;Hugh!&rdquo; riepen de Commanchen en vielen op het
+<span class="pagenum">[<a id="xd21e1929" href="#xd21e1929" name="xd21e1929">71</a>]</span>maal aan, dat spoedig verdwenen was, want dit
+volk presteert op dit gebied veel. Toen de maaltijd was afgeloopen,
+traden twee krijgers te voorschijn, die een Apache gekneveld
+meevoerden.</p>
+<div class="figure floatLeft xd21e1932width"><img src="images/p72.png"
+alt="Het Stille Water." width="318" height="468">
+<p class="figureHead">Het Stille Water.</p>
+</div>
+<p>&ldquo;Het hart van de Commanchen&rdquo;, sprak de hoofdman niet
+zonder aandoening en te midden van een plechtig stilzwijgen, &ldquo;is
+even vol van dank als de bodem van het gebeente hunner verslagene
+vijanden. Om dit te toonen willen zij de blanke broeders de eer waardig
+keuren om de plechtigheid bij te wonen die volgt&rdquo;.</p>
+<p>De marteling van den gevangene, uitvoerig als al wat tot de zeden
+der Commanchen behoort, nam een aanvang. Daar wij geen bewoners der
+wildernis zijn en op zulke tafereelen niet belust, doen wij beter ons
+te verwijderen, totdat de Apache den geest heeft gegeven. Een luid
+applaus kondigt dit tijdstip aan&mdash;wij keeren terug. Alsnu kwam de
+Sachem voor den dag met het eigenlijk doel zijner komst.</p>
+<p>&ldquo;Een verachtelijke Slangen-Pawnee, de Blauwe Vos&rdquo;, sprak
+hij, driemaal op den grond spuwend, &ldquo;heeft mijn blanke broeders
+bezocht. Het Stille Water vermag zijn onreinen scalp niet aan den
+gordel van een zijner blanke <span class="pagenum">[<a id="xd21e1942"
+href="#xd21e1942" name="xd21e1942">72</a>]</span>broeders te ontdekken.
+Dit bedroeft het Stille Water zeer. Ziet de dappere hoofdman weent van
+smart en spijt&rdquo;.</p>
+<p>De jager antwoordde voorzichtig:</p>
+<p>&ldquo;Wij hebben den scalp van den Blauwen Vos voor den gordel van
+het Stille Water bewaard! Overigens schijnt de Blauwe Vos niet langer
+een vriend der Apachen. Hij gaf dezen volksstam leelijke namen. Hij
+beschimpte hunne voorvaderen en hunne nazaten&rdquo;.</p>
+<div class="figure floatRight xd21e1949width"><img src="images/p73.png"
+alt="Edelhart." width="152" height="400">
+<p class="figureHead">Edelhart.</p>
+</div>
+<p>&ldquo;Poah! De Blauwe Vos is de vijand der Commanchen. De Blauwe
+Vos blaast zijn stinkenden adem in het oor van Sluipvoet, het
+opperhoofd der Apachen. Het Stille Water is geen babbelzieke
+<i>squaw</i>! Mijn broeders hebben roode harten, maar een bleeken neus,
+die het verraad niet ruikt, dat kankert in de ziel van een schurftigen
+hond van een Slangen-Pawnee!&rdquo;</p>
+<p>&ldquo;Het opperhoofd rookte met ons de <i>calumet</i><span class="corr" id="xd21e1962" title="Niet in bron">,</span>&rdquo; zeide
+Edelhart thans. &ldquo;Ook is hij niet wijzer gegaan dan hij
+kwam&rdquo;.</p>
+<p>Het Stille Water scheen eenigszins bevredigd. Hij wenkte zijn mannen
+en ging, echter niet zonder het voorgeschreven afscheidsceremonieel
+alle recht te doen wedervaren.</p>
+<p>De drie reizigers vervolgden des morgens hun tocht ter bevrijding
+van de schoone Camilla, respectievelijk hun pleegdochter en
+geliefde.</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK II. <i>Camilla&rsquo;s vlucht.</i></h3>
+</div>
+<div class="divBody">
+<p class="first">Het rad der fortuin is uiterst wisselvallig! Dit feit
+moge somtijds bij den sterveling een onrustig gevoel <span class="pagenum">[<a id="xd21e1977" href="#xd21e1977" name="xd21e1977">73</a>]</span>opwekken, het moet erkend worden, dat de tand
+des tijds zelden een groot ongeluk brengt, zonder er eigenhandig een
+klein gelukje bij te voegen, als een pleister op de bloedende wonde, of
+zooals een oase in de woestijn.</p>
+<p>Wij bevinden ons op de eindelooze prairie, eenvoudig, doch schoon
+omlijst door het hemelsblauw, echt Mexicaansch, of liever Texaansch
+uitspansel. Dit landschap wordt dra gestoffeerd. Een ruiter nadert in
+vliegende vaart, als een waterval van de bergtoppen ijlt, schuimend en
+spattend, in kokende drift. Het is een vrouw in manskleeren, die haar
+vormen zeer voordeelig doen uitkomen. Deze vrouw is Camilla! Op haar
+lieftallig gelaat betwisten vertwijfeling en moed elkaar den
+voorrang.</p>
+<div class="figure floatLeft xd21e1982width"><img src="images/p74.png"
+alt="Camilla&rsquo;s vlucht." width="323" height="254">
+<p class="figureHead">Camilla&rsquo;s vlucht.</p>
+</div>
+<p>Een woest gehuil, dierlijk van klank, doch ongetwijfeld uit den mond
+van een mensch gekomen, treft ons oor! Zelfs de blanke staat dikwijls
+niet hooger dan het laagste dier, vooral in de wildernis! Dit is
+treurig, maar waar.</p>
+<p>Het is de Bleeke Scalpeur! Camilla heeft dezen ijzingwekkenden man
+weten te ontkomen. Maar helaas, hij nadert met de snelheid van den
+wervelwind, doch dan in steeds voorwaartsche richting!</p>
+<p>Reeds grijpt zijn ruwe hand naar de haren der schoone jonkvrouw.
+Heeft hij haar gevat?</p>
+<p>De lezer sla het begin van dit hoofdstuk op, hij zal er een
+opmerking vinden, die hem tot goed begrip van het nu volgende wel te
+stade zal komen! <span class="pagenum">[<a id="xd21e1994" href="#xd21e1994" name="xd21e1994">74</a>]</span></p>
+<p>Camilla&rsquo;s haren zijn van schrik te berge gerezen!</p>
+<p>Zoo kan de vervolger er niet bij!</p>
+<p>Welnu, op dit oogenblik springen drie mannen te voorschijn.</p>
+<p>De eerste is de jager!</p>
+<p>De tweede is Edelhart!</p>
+<p>De derde is een geheel nieuwe figuur in onze romans, n.l. de neger
+Kroeskop, een door de Indianen met bevreemding bejegend man van zuiver
+Afrikaansche huidkleur.</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK III. <i>Een mooie scalp.</i></h3>
+</div>
+<div class="divBody">
+<p class="first">De regen viel bij stroomen neder, als schreiden de
+engelen in de goedheid hunner harten over de boosheid der menschen, die
+zich niet ontzien elkander te haten en zelfs te dooden. De Blauwe Vos,
+gewend wind en weder te trotseeren, is met zijn squaw of huisvrouw en
+kind op het pad. De Zingende Leeuwerik, zijn jonge vrouw, is niet
+zonder typische Indiaansche schoonheid, voor wie daarvan houdt
+tenminste. Naar onzen smaak is haar profiel wat hakerig. Beider
+zoontje, drie jaar oud, vertoont reeds den listigen en wreedaardigen
+trek zijns vaders.</p>
+<div class="figure floatRight xd21e2016width"><img src="images/p75.png"
+alt="De Bleeke Scalpeur." width="198" height="440">
+<p class="figureHead">De Bleeke Scalpeur.</p>
+</div>
+<p>Eensklaps legt het hoofd van dit gezin den vinger op de lippen en
+duikt weg achter de struiken! Vrouw en kind volgen zijn voorbeeld
+gezwind.</p>
+<p>De neger Kroeskop komt voorbij. Een scalp, zoo zeldzaam als de
+zijne, kon niet missen reeds lang de begeerigheid van den rooden schelm
+te hebben opgewekt.</p>
+<p>V&oacute;&oacute;r de ongelukkige zwarte, onbekend met de gebruiken
+<span class="pagenum">[<a id="xd21e2026" href="#xd21e2026" name="xd21e2026">75</a>]</span>des lands, weet wat geschiedt, is hij van
+zijn scalp beroofd<span class="corr" id="xd21e2028" title="Niet in bron">.</span></p>
+<p>Op dit oogenblik rijst een man als het ware uit den grond op. Het is
+de Bleeke Scalpeur. Het zien alleen van dezen geduchten grijsaard doet
+het Indiaansch gezin vluchten, den scalp inderhaast achterlatend.</p>
+<p>De redder treedt op den neger toe. Is hij te laat gekomen? Het
+schijnt zoo. Eens gescalpeerd heeft men gewoonlijk niet veel meer te
+vertellen. Doch wat nu voorvalt zal menigeen verbazen, die de
+buitengewone taaiheid van de negers en de hardheid van hun schedels
+niet uit ondervinding kent!</p>
+<div class="figure floatRight xd21e2036width"><img src="images/p76.png"
+alt="&ldquo;Een mooie scalp!&rdquo;" width="330" height="391">
+<p class="figureHead">&ldquo;Een mooie scalp!&rdquo;</p>
+</div>
+<p>Kroeskop heeft zijn scalp opgenomen en drukt dezen thans met alle
+macht op zijn hoofd. Nu maakt hij vertwijfelde teekenen. Het verblijf
+in de wildernis verleent tegenwoordigheid van geest. De grijze reus
+begrijpt hem! In een oogwenk staat hij op het hoofd van den
+gescalpeerde. Dit krasse middel mist zijn uitwerking niet. Kroeskop is
+binnen weinige oogenblikken weer geheel zich zelf. Zijn haar echter is
+van nu af aan onherstelbaar uit de krul!</p>
+<p>De Bleeke Scalpeur bevindt zich nog in de zoo even geschilderde
+menschlievende positie, als Camilla op hem toesnelt. <span class="pagenum">[<a id="xd21e2044" href="#xd21e2044" name="xd21e2044">76</a>]</span></p>
+<p>&ldquo;Men zegt mij&rdquo;, roept het lieve meisje blozend,
+&ldquo;dat gij mijn vader zijt. Thans wordt mij alles
+duidelijk!&rdquo;</p>
+<p>&ldquo;Zoo is het&rdquo;, antwoordt de woeste man, wien de tranen
+over het verweerde gelaat loopen. Hij stijgt af&mdash;en omhelst zijn
+kind.</p>
+<p>De band des bloeds werpt somtijds een rooskleurig licht op een
+schijnbaar zwarte ziel en opent de ruwe schors, die het hart van een
+bewoner der wildernis omgeeft!</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">HOOFDSTUK IV. <i>Een veelbewogen dag.</i></h3>
+</div>
+<div class="divBody">
+<p class="first">De prairiën, hoe onherbergzaam ook, zijn evenmin
+als eenig menschelijk oord, ontoegankelijk voor de liefde! Gelijk wij
+gezien hebben, beminden zoowel <i>El Pantero</i> als Edelhart, Camilla,
+welke bovendien het eenige jonge meisje van hun eigen complexie in den
+ganschen omtrek was.</p>
+<p>Het is niet de taak van den romanschrijver, de zoete woorden af te
+luisteren, welke <i lang="es">El Pantero</i> haar toevoegde; nog
+minder, deze op te schrijven. Veeleer doen wij goed den wraakgierigen
+Blauwen Vos in het oog te houden, die sluipend naderde, en den
+<i>tomahawk</i> ophief om de beleediging, hem in ons eerste hoofdstuk
+aangedaan, te wreken. Het verheugt ons te kunnen zeggen, dat Edelhart
+op datzelfde oogenblik ten tooneele verscheen en den medeminnaar met
+een welgemikten kogel redde, daarbij tevens zich zijn naam waardig
+toonend.</p>
+<div class="figure floatRight xd21e2071width"><img src="images/p77.png"
+alt="Een kras middel." width="154" height="554">
+<p class="figureHead">Een kras middel.</p>
+</div>
+<p>De vuilaardige Indiaan viel voorover en de Bleeke <span class="pagenum">[<a id="xd21e2077" href="#xd21e2077" name="xd21e2077">77</a>]</span>Scalpeur, die zijn naam ook niet voor niets
+droeg, wilde hem van zijn haartooi berooven. Het kwam den jager echter
+voor, dat deze onbeschaafde daad voor een blanke, die bovendien de
+vader van Camilla was, niet door den beugel kon. Een strijd ontstond
+tusschen de bedaagde mannen, doch spoedig verscheen een nieuwe vijand
+ter plaatse.</p>
+<p>Een troep krijgers van den Blauwen Vos stormde toe om den hoofdman
+te wreken.</p>
+<p>Maar de redding liet niet lang op zich wachten. Een afdeeling
+Commanchen onder aanvoering van Het Stille Water, die weer kwam alsof
+hij geroepen was, zond hen in massa naar het schimmenrijk.</p>
+<p>Nu scheen alles in orde! Maar zoo iets bestaat in de wildernis niet.
+Een regiment Mexicanen naderde in woeste vaart! Om rust te nemen, nadat
+men zijn koetjes op het droge heeft gebracht, moet men niet naar
+dit&mdash;overigens gezonde en schoone&mdash;land toe gaan. Thans
+scheen alles verloren. Doch dit moet men in de wildernis niet te gauw
+zeggen!</p>
+<p>&ldquo;Moed gehouden!&rdquo; riep de jager nu, ontroerd. De
+geoefende woudlooper legde het oor tegen den grond, en zeide met de
+meeste zekerheid:</p>
+<p>&ldquo;Op tien minuten afstand naderen honderd Texanen en 50 Sioux
+in volle vaart! Arendsneus heeft het commando.&rdquo;</p>
+<p>Hij sprak de waarheid! Maar nog waren de spannende gebeurtenissen
+van dezen woeligen dag niet ten einde.</p>
+<p>Een bende Apachen vervulde de lucht met hun barbaarsche
+oorlogskreten, welke een kwelling zijn voor beschaafde ooren.</p>
+<p>Een woedend gevecht volgde, waarbij de Apachen het veld moesten
+ruimen, vele dooden achterlatende, ten prooi aan scalpjager en gier...
+Onze vrienden verlieten het tooneel van zooveel lief en leed.
+<span class="pagenum">[<a id="xd21e2096" href="#xd21e2096" name="xd21e2096">78</a>]</span></p>
+<div class="figure xd21e2098width"><img src="images/p79.png" alt="Een veelbewogen dag." width="589" height="708">
+<p class="figureHead">Een veelbewogen dag.</p>
+</div>
+<p><span class="pagenum">[<a id="xd21e2102" href="#xd21e2102" name="xd21e2102">79</a>]</span></p>
+<p>Nadat zij zijn verdwenen, werpen wij een laatsten blik op de
+prairie... De nacht spreidt den mantel der liefde over de bloedige
+overblijfselen van dappere legerscharen. De maan gaat op en verleent
+schilderachtigheid aan een tafereel, dat zooeven nog alles behalve
+aangenaam aandeed. Wat beweegt daar? De Blauwe Vos&mdash;want hij is
+het&mdash;richt zich kreunend op. Waarheen staart het oog van dezen
+schijndoode met zooveel aandacht? Volgen wij zijn blikken, al maakt
+zijn loenschheid dit ons moeilijk.</p>
+<p>Een tweede krijger wordt door een rilling doorploegd. Het is een
+jong opperhoofd der Commanchen, die thans zijn forsch lichaam op den
+elleboog opheft. Zijn verglaasde oogen schitteren in den maneschijn als
+fosfor...</p>
+<p>De beide schijndooden van zooeven wisselen een blik vol haat,
+afgunst, verachting en bloeddorst...</p>
+<div class="figure xd21e2110width"><img src="images/p80.png" alt=""
+width="558" height="290"></div>
+<p><span class="pagenum">[<a id="xd21e2112" href="#xd21e2112" name="xd21e2112">80</a>]</span></p>
+</div>
+</div>
+</div>
+</div>
+<div id="zoetekauw" class="div1 story"><span class="pagenum">[<a href="#xd21e2544">Inhoud</a>]</span>
+<div class="divHead">
+<h2 class="main">PRINSES ZOETEKAUW</h2>
+<h2 class="sub">EEN SPROOKJE.</h2>
+</div>
+<div class="divBody">
+<p class="first">Er waren eens een koning en een koningin, die een
+beeldschoon dochtertje hadden, dat Eveline heette. Nu wilde echter het
+ongeluk, dat het prinsesje &eacute;&eacute;n groot gebrek had; zij was
+zeer snoepzuchtig. Zoo kwam het dat men Eveline, toen zij acht jaar
+geworden was, nooit bij haar eigen naam noemde, doch dat elkeen sprak
+van Prinses Zoetekauw! Dit veroorzaakte H.H. M.M. veel verdriet.</p>
+<p>Op een avond nadat Eveline naar bed gegaan was, bespraken haar
+ouders juist de noodzakelijkheid, haar van hare fout te genezen, toen
+er gescheld werd en Antje de meid vlak daarop een kaart binnenbracht
+van den volgenden inhoud:</p>
+<div class="q xd21e2122">
+<p class="first xd21e2123"><b>ADELGONDE,<br>
+FEE.</b></p>
+<p class="xd21e2123"><i>Directrice van het Herstellingsoord
+&ldquo;Excelsior&rdquo;. Beveelt zich beleefd aan voor het verbeteren
+van kinderen met onvolmaakt karakter.</i></p>
+<p><span class="sc">Billijke condities.&mdash;Ook aan huis te
+ontbieden.&mdash;Gezonde, boschrijke streek.&mdash;Prima
+referentiën bij de deftigste families.&mdash;Strikte geheimhouding
+verzekerd.</span></p>
+<p class="xd21e2123"><b>Prospectus wordt desgewenscht gratis
+toegezonden.</b></p>
+</div>
+<p><span class="pagenum">[<a id="xd21e2141" href="#xd21e2141" name="xd21e2141">81</a>]</span></p>
+<p>De ouders van Eveline zagen elkaar verbaasd aan. Toen zei de
+koning:</p>
+<p>&ldquo;Laat de juffrouw binnenkomen, Antje.&rdquo;</p>
+<p>De Fee trad binnen, nam den haar beleefd aangeboden stoel en
+glimlachte vriendelijk.</p>
+<p>&ldquo;Mag ik u vragen, Fee,&rdquo; zeide Eveline&rsquo;s vader,
+&ldquo;waaraan ik de eer van uw bezoek te danken heb?&rdquo;</p>
+<p>&ldquo;Zooals u wel zult vermoeden, meneer de koning,&rdquo; begon
+de Fee, &ldquo;heeft de helaas algemeen bekende snoepzucht van uw
+overigens aardig dochtertje mijn schreden hierheen geleid.&rdquo;</p>
+<p>H.H. M.M. zuchtten diep.</p>
+<p>&ldquo;Ik geloof namelijk<span class="corr" id="xd21e2156" title="Niet in bron">,</span>&rdquo; vervolgde de Fee opbeurend, &ldquo;het
+prinsesje te kunnen genezen.&rdquo;</p>
+<p>H.H. M.M. zagen elkaar hoopvol aan.</p>
+<p>De Fee stond op en zwaaide de tooverparapluie, welke zij steeds bij
+zich droeg. In een oogenblik was de kamer vol eigenaardige wezens.
+Elfen, kabouters, hulpfeeën, enz.</p>
+<p>&ldquo;Dit is mijn personeel&rdquo;, zeide Adelgonde. &ldquo;Het
+staat mij met ijver en plichtsbetrachting bij in mijn somtijds
+moeielijke taak. Onze kabouters hebben u, zooals u zien zult, een der
+laarzen meegebracht van den Reus, die niet zelf kon binnenkomen wegens
+zijn reusachtigheid&rdquo;.</p>
+<p>Vervolgens stelde de Fee de aanwezigen &eacute;&eacute;n voor
+&eacute;&eacute;n aan H.H. M.M. voor. Nadat de hulpfeeën: de dames
+zuster Silentia, zuster Attentia, zuster Patientia en zuster Olympia
+hare nijging hadden gemaakt en minzaam door het vorstelijk echtpaar
+waren toegesproken, kwam de beurt aan de kabouters: de heeren, Jokniet,
+Morsniet, Snoepniet, Pulkniet, Kijfniet, Zeurniet en Gilniet.</p>
+<p>H.H. M.M. onderhielden zich daarop een tijdlang met elk der
+aanwezigen afzonderlijk en lieten zich hunne denkbeelden uiteenzetten.
+In het bijzonder interesseerde H. M. de Koningin zich voor het
+praktisch werk door <span class="pagenum">[<a id="xd21e2170" href="#xd21e2170" name="xd21e2170">82</a>]</span>zuster Olympia verricht.
+Hare Majesteit liet deze hulpfee haar nieuwste systeem verklaren, dat
+op een combinatie van nuttige handwerken en lichamelijke opvoeding
+berust, en gaf door de vragen, die het Haar behaagde te stellen, blijk
+van Haar belangstelling en kennis van zaken. Onderwijl leende Haar
+gemaal een gewillig oor aan de belangwekkende theorieën van den
+heer Jokniet over de jacht, een onderwerp dat den vorst buitengemeen
+interesseerde.</p>
+<p>&ldquo;Mijn personeel&rdquo;, vervolgde de Fee, het woord weder
+opnemend, &ldquo;bestaat uit prima werkkrachten. Ik heb de eer in het
+bijzonder de aandacht van Uwe Majesteiten te vestigen op onzen heer
+Snoepniet, sedert vele jaren bij mij werkzaam, aan wiens zorgen ik
+gaarne de behandeling van Hare K. Hoogheid wenschte te zien
+toevertrouwd.&rdquo;</p>
+<p>Eveline&rsquo;s ouders maakten nader kennis met dezen bekwamen en
+welwillenden kabouter. Besloten werd, dat Eveline een tijdlang
+verpleegd zou worden in het herstellingsoord &ldquo;Excelsior&rdquo; en
+aan de zorg van den paedagoog Snoepniet zou worden toevertrouwd.</p>
+<p>Den volgenden dag vertrok zij, alleen vergezeld van de particuliere
+hoffotografe der koningin. Haar afscheid van het koninklijk echtpaar
+was kort maar roerend.</p>
+<p>De reis was zeer voorspoedig.</p>
+<p>De ontvangst was allerhartelijkst. De jongste verpleegde, 2&frac12;
+jaar oud, in behandeling voor duimzuigen, bood <span class="corr" id="xd21e2182" title="Bron: der">de</span> hooge gast een ruiker aan. Het
+woud Excelsior wemelde van berispelijke kinderen, daarheen gezonden, om
+verpleegd te worden tot den waarlijk billijken prijs van f 1.&ndash;
+per dag, per persoon, met volledig pension (buiten de wasch). Meer
+kinderen uit &eacute;&eacute;n gezin gereduceerd tarief (wij citeeren
+den prospectus).</p>
+<p>De kinderen waren in ploegen verdeeld, en werkten acht uur per dag
+onder toezicht van de kabouters. De arbeid van iedere ploeg was er op
+berekend, de kinderen, <span class="pagenum">[<a id="xd21e2187" href="#xd21e2187" name="xd21e2187">83</a>]</span>die er toe behoorden, van
+hun bepaalde ondeugd te genezen. Had een kind meer dan
+&eacute;&eacute;n ondeugd, dan werkte het afwisselend in verschillende
+ploegen en dan duurde de kuur natuurlijk langer.</p>
+<p>Prinses Zoetekauw werkte, met nog vijf andere kinderen, onder
+toezicht van den welmeenenden, doch gestrengen afdeelingschef
+Snoepniet.</p>
+<p>De arbeid bestond in het proeven van taartjes, gebak, bonbons,
+koekjes enz. In den beginne lachte deze bezigheid ons prinsesje niet
+weinig toe, zooals men denken kan. Weldra werd dit echter anders.</p>
+<p>Het proeven moest namelijk zeer schielijk geschieden. Ieder kind
+moest een taartje of koekje een oogenblik proeven, en er een stukje
+afbijten, waarop het aan wie volgde werd overgereikt, enzoovoort, de
+rij langs. Met de linkerhand werd doorgegeven, met de rechter schreef
+men zijn oordeel op. De voorraad werd niet ververscht,
+v&oacute;&oacute;r dat elk taartje op was. Ander voedsel kreeg deze
+afdeeling niet. Men mocht zich niet verwijderen.</p>
+<p>De taak van Snoepniet, die acht moest geven dat elk kind werkelijk
+proefde en slikte, en dat opgeschoten werd was alles behalve licht!
+Voortdurend klonk zijn stem: &ldquo;Doorgeven daar! Opschieten daar!
+Slikken daar! Wie volgt! Blijven zitten daar!&rdquo;</p>
+<p>Is het wonder dat Eveline en haar kornuitjes weldra een innigen
+afkeer gingen koesteren tegen alle snoeperij?</p>
+<p>Des Zondags werd niet gewerkt. De kinderen verzamelden zich op een
+heuvel tot het hooren van eenige lezingen en voordrachten. Het
+programma van de matin&eacute;e was vol afwisseling. De inleidster,
+Tante Adelgonde, zette, in een welsprekend pleidooi, het doel van
+Excelsior uiteen.</p>
+<p>De fee begon met erop te wijzen dat &ldquo;Excelsior&rdquo; streefde
+naar hooger. Evenwel moeten wij niet slechts naar buiten maar ook naar
+binnen omhoog streven. <span class="pagenum">[<a id="xd21e2204" href="#xd21e2204" name="xd21e2204">84</a>]</span>(Applaus!) Excelsior heeft
+nog een vruchtbaar arbeidsveld voor den boeg! Wij willen dezen dag
+vieren als een mijlpaal, die den stoot geeft tot nog grooter inspanning
+en waarop wij krachtig moeten voortbouwen. Het tot nogtoe bereikte mag
+ons tot blijdschap stemmen, dit moet ons daarom nog geen reden zijn op
+onze lauweren te rusten, (gelach) doch integendeel een spoorslag om de
+handen in&eacute;&eacute;n en met frisschen moed aan den ploeg te
+slaan! (Daverend applaus!) De spreekster wees verder op de
+noodzakelijkheid van propaganda en gaf vervolgens het woord aan de
+ijverige secretaresse, de hulpfee Patientia, die het jaarverslag
+uitbracht.</p>
+<p>De volgende spreker was de heer Jokniet, die de toehoorders tot
+tranen wist te roeren, terwijl hij op zijn overtuigende wijze alle
+jokkernij aanviel en daarop mededeelingen deed omtrent een bezoek door
+hem, in opdracht van Excelsior, gebracht aan den Ooievaar.</p>
+<p>Spreker werd door den voorkomenden patriarch met de grootste
+welwillendheid ontvangen.</p>
+<p>Het gesprek kwam, na eenige inleidende beleefdheden, natuurlijk
+spoedig op het vraagstuk der moeilijke kindervragen.</p>
+<p>De Ooievaar was overtuigd namens zijne geest- en bloedverwanten te
+spreken, wanneer hij ten stelligste ontkende, dat zijn fractie nu of
+ooit eenige medewerking bij de geboorte der menschenkinderen zou hebben
+verleend! Hij brandmerkte dit gerucht als een bloot verzinsel, hij
+wilde niet zeggen een unfaire verdachtmaking van een deel der pers.
+Sommige groepen, meende de vriendelijke gastheer, trachten uit
+bedenkelijke zucht om de verantwoordelijkheid van zich af te schuiven,
+zijn fractie aansprakelijk te stellen voor de tegenwoordige crisis.</p>
+<p>Op de vraag van spreker wat zijn opinie was aangaande eerlijke
+antwoorden op kindervragen, achtte de Ooievaar <span class="pagenum">[<a id="xd21e2217" href="#xd21e2217" name="xd21e2217">85</a>]</span>het een dringende plicht zich met de meeste
+omzichtigheid te uiten, zoolang het program van zijn groep nog niet
+definitief was vastgesteld. Slechts geloofde hij verantwoord te zijn,
+wanneer hij als zijn vaste overtuiging te kennen gaf dat de tijd thans
+nog niet rijp was voor de oplossing van het verwante probleem: wie er
+het eerst was, de kip of het ei. Een brochure van zijn vleugel over dit
+onderwerp is overigens ter perse.</p>
+<p>Terugkomende op de eerste vraag, verzekerde de ooievaar nog eens ten
+stelligste, dat voor deze geruchten elke grond ontbrak. Er bestaat
+volkomen overeenstemming in den boezem mijner groep, verzekerde
+hij.</p>
+<p>Ware het mogelijk de geboorte van <i>kikkers</i> te bevorderen, hij
+en zijne vrienden zouden gewis niet werkeloos blijven. Nog vestigde hij
+er onze aandacht op, dat geen enkel ooievaar de bevoegdheid bezit tot
+het verleenen van medische hulp, en geen enkele ooiemoer diploma voor
+vroedvrouw.</p>
+<p>Nadat dit onderhoud tot des heeren Jokniets bevrediging
+geëindigd was, wenschte deze zich nog naar een niet minder
+bevoegde persoonlijkheid te begeven, om diens oordeel te vernemen over
+een andere hardnekkige legende, volgens welke deze zelf, zekere St.
+Nicolaas, nog altijd op den 5en December (den avond v&oacute;&oacute;r
+zijn geboortedag) geschenken en straffen zou uitdeelen om op
+verouderd-paedagogische wijze het gedrag van het kind te
+be&iuml;nvloeden.</p>
+<p>Deze poging mocht evenwel niet met hetzelfde succes worden bekroond.
+Noch het adresboek van Spanje, noch de ijverige nasporingen der politie
+konden het verblijf van den z.g. Sint aan het licht brengen. Hoogst
+waarschijnlijk heeft men in dit geval met een oplichter te doen, die
+misbruik maakt van den goeden naam des lang overleden bisschops, om het
+kinderpubliek beloften en concessies af te persen. Men zij
+gewaarschuwd! <span class="pagenum">[<a id="xd21e2230" href="#xd21e2230" name="xd21e2230">86</a>]</span></p>
+<p>Niet minder bijval oogstte de heer Morsniet met zijn vurige
+bestrijding der morsgewoonte. De heer Snoepniet, die op aanschouwelijke
+wijze een bedorven maag schilderde, vond eveneens een uitbundig
+onthaal. Met groote belangstelling volgden de aanwezigen de voordracht
+van den heer Pulkniet, over het neuspeuteren, met lichtbeelden. De zon
+had hierbij hare belangelooze medewerking verleend door zoolang te
+verdwijnen. Niet minder toonde het publiek zich ingenomen met de
+belangwekkende rede van den heer Kijfniet, die het kijven op zijn
+bekende krachtige wijze bestreed. De heer Zeurniet zeide over het
+zeuren kort te zullen zijn en voegde, in een bondig betoog van slechts
+enkele uren, de daad bij het woord. De heer Zeurniet koos tot thema een
+vers, dat, naar zijn meening zeer ten onrechte in bepaalde kringen van
+kinderen en opvoeders een zekere mate van populariteit genoot.</p>
+<p>Spreker begon met de voorlezing van dit vers, een noodzakelijke
+inleiding waarmee hij het geduld der vergadering tot zijn spijt een
+weinig op de proef zou moeten stellen:</p>
+<div class="lgouter">
+<p class="line">Dit is de sleutel van den Bibelbontschen berg</p>
+<p class="line">Op dien Bibelbontschen berg</p>
+<p class="line">Wonen Bibelbontsche menschen</p>
+<p class="line">En die Bibelbontsche menschen</p>
+<p class="line">Hebben Bibelbontsche kinderen</p>
+<p class="line">En die Bibelbontsche kinderen</p>
+<p class="line">Eten Bibelbontsche pap</p>
+<p class="line">Met een Bibelbontschen lepel</p>
+<p class="line">Uit een Bibelbontsche nap.</p>
+</div>
+<p class="first">Spreker wilde zijne bedenkingen tegen dit vers
+neerleggen in een reeks vragen:</p>
+<ul>
+<li>1. Schijnt het niet vreemd dat men een sleutel noodig <span class="pagenum">[<a id="xd21e2259" href="#xd21e2259" name="xd21e2259">87</a>]</span>zou hebben inplaats van b.v. een alpenstok om
+een berg te bestijgen?</li>
+<li>2. Acht gij de herhaling van dat woord Bibelbontsch in elken regel,
+bij menschen, kinderen, pap, lepel en nap, niet overbodig?</li>
+<li>3. Houdt gij met mij het woord Bibelbontsch niet voor een
+klankwoord zonder aardrijkskundige beteekenis, en de gansche
+omslachtige mededeeling derhalve voor waardeloos en nonsensikaal?</li>
+<li>4. Is in dit vers, waarin toch van zekere pap wordt gewag gemaakt,
+niet een belangrijke leerstof verwaarloosd, daar niet vermeld wordt,
+uit welke bestanddeelen dit voedsel bestaat?</li>
+</ul>
+<p>Spreker beantwoordde al deze vragen bevestigend, en achtte,
+resumeerende, dit vers:</p>
+<ul>
+<li><i>a.</i> onzinnig,</li>
+<li><i>b.</i> vol herhalingen, dus zeurig,</li>
+<li><i>c.</i> onwetenschappelijk,</li>
+<li><i>d.</i> ongeschikt,</li>
+</ul>
+<p>conclusies welke hij in een heldere detailcritiek nader
+toelichtte.</p>
+<p>Het viel te betreuren, dat de beschaafde causerie van den heer
+Gilniet, over het gillen, onverstaanbaar was.</p>
+<p>Dit feit gaf aanleiding tot een <b>INCIDENT</b>.</p>
+<p>De heer Kijfniet vroeg aan de voorzitster of het niet mogelijk was
+een leerstoel voor methodisch spreken in te stellen. De heer Gilniet
+zegt, dit als een insinuatie te beschouwen.</p>
+<p>Geroep: &ldquo;Wien de schoen past trekt hem aan!&rdquo;</p>
+<p>De heer Gilniet: &ldquo;Ik eisch een onderzoek!&rdquo;</p>
+<p>De voorzitster zegt dit toe. Het incident wordt gesloten.</p>
+<p>Na de pauze zongen de hulpfeeën eenige paedagogische liederen.
+Het mooist werd gevonden&mdash;ongetwijfeld wegens de opwekkende
+melodie en de sympathieke strekking&mdash;het: <span class="pagenum">[<a id="xd21e2308" href="#xd21e2308" name="xd21e2308">88</a>]</span></p>
+<div class="figure xd21e2311width"><img src="images/p89.png" alt="De hulpfeeën zongen paedagogische liederen." width="517" height="720">
+<p class="figureHead">De hulpfeeën zongen paedagogische
+liederen.</p>
+</div>
+<p><span class="pagenum">[<a id="xd21e2315" href="#xd21e2315" name="xd21e2315">89</a>]</span></p>
+<div class="lgouter">
+<p class="line"><span class="ex">Excelsior-lied</span>,</p>
+</div>
+<p class="first">waarvan het refrein door alle aanwezigen werd
+medegezongen op de wijze van het Sequah-lied.</p>
+<div class="lgouter">
+<p class="line">Heb je slechte zeden,</p>
+<p class="line xd21e2326">Ben je zenuwziek, Boem!</p>
+<p class="line">Richt tot ons je schreden</p>
+<p class="line xd21e2326">Hier genees je kwiek! Boem!</p>
+</div>
+<p class="first">(tot de fee)</p>
+<div class="lgouter">
+<p class="line">Tante Adelgonde</p>
+<p class="line xd21e2326">Lieve beste Fee</p>
+<p class="line">Zij zijn vol van zonden</p>
+<p class="line xd21e2326">Red ze s. v. p.!</p>
+</div>
+<p class="first">Refrein:</p>
+<div class="lgouter">
+<p class="line">Kom tot ons, kom tot ons</p>
+<p class="line xd21e1730">Boem, boem, boem!</p>
+<p class="line">Zie naar ons, zie naar ons</p>
+<p class="line xd21e1730">Boem, boem, boem!</p>
+<p class="line">Hoor naar ons, hoor naar ons!</p>
+<p class="line xd21e1730">Boem, boem, boem!</p>
+<p class="line">Streef met ons, streef met ons</p>
+<p class="line xd21e1730">Boem, boem, boem!</p>
+</div>
+<p class="first">(tot de kabouters)</p>
+<div class="lgouter">
+<p class="line">Jokniet, Morsniet, Snoepniet</p>
+<p class="line xd21e2326">Help haar in haar taak, Boem!</p>
+<p class="line">Pulk-<span class="corr" id="xd21e2372" title="Niet in bron">,</span> Kijf-, Zeur- en Gilniet</p>
+<p class="line xd21e2326">Steun de goede zaak, Boem!</p>
+</div>
+<p class="first">(tot de kinderen)</p>
+<div class="lgouter">
+<p class="line">Kind je moet maar leeren</p>
+<p class="line xd21e2326">In Excelsior</p>
+<p class="line">En wij garandeeren</p>
+<p class="line xd21e2326">Dat je beter wor!</p>
+</div>
+<p><span class="pagenum">[<a id="xd21e2388" href="#xd21e2388" name="xd21e2388">90</a>]</span></p>
+<p><span class="ex">Refrein</span>: Kom, enz.</p>
+<div class="lgouter">
+<p class="line">Ja, vandaag of morgen</p>
+<p class="line xd21e2326">Ben je al hersteld, Boem!</p>
+<p class="line">Dank zij onze zorgen</p>
+<p class="line xd21e2326">En dat schijntje geld, Boem!</p>
+<p class="line">Help ons aan klandisie</p>
+<p class="line xd21e2326">Maak &rsquo;t adres bekend!</p>
+<p class="line">Dan is de provisie</p>
+<p class="line xd21e2326">1&frac12;%.</p>
+</div>
+<p class="first"><span class="ex">Refrein</span>: Kom, enz.</p>
+<p>Aan het applaus scheen geen einde te zullen komen!</p>
+<p>De Fee Adelgonde dankte hierop de aanwezigen voor de trouwe opkomst
+en besloot met een opwekking tot allen om ieder in zijn kring het goede
+doel te bevorderen.</p>
+<p>Geen wonder dat onze Eveline in deze omgeving spoedig genas. Drie
+weken later kon zij als hersteld worden ontslagen. Tot groote vreugde
+harer ouders verloor zij den bijnaam van</p>
+<p class="xd21e2123">Prinses Zoetekauw. <span class="pagenum">[<a id="xd21e2423" href="#xd21e2423" name="xd21e2423">91</a>]</span></p>
+</div>
+</div>
+<div id="kus" class="div1 story"><span class="pagenum">[<a href="#xd21e2551">Inhoud</a>]</span>
+<div class="divHead">
+<div class="figure"><img src="images/p92.png" alt="DE KUS" width="542"
+height="346"></div>
+<h2 class="main">DE KUS</h2>
+<h2 class="sub">TENDENZ-ROMAN</h2>
+</div>
+<div class="divBody">
+<p class="first">&ldquo;Mag ik het Rijksmuseum van u hebben,
+conducteur?&rdquo;</p>
+<p>&ldquo;Zeker, meneer!&rdquo;</p>
+<p>De conducteur van lijn 10 schelde. De bestuurder remde.</p>
+<p>De jonge dr. Hendrik van Bree, grijs deukhoedje, bruine covercoat,
+stapte uit, nog v&oacute;&oacute;r de wagen geheel stopte, liep enkele
+passen met de alweer doorrijdende tram mee, nam toen bijna onmerkbaar
+zijn draai en betrad met energieke schreden de brug tusschen
+Weteringschans en Stadhouderskade. Hij liep onder het Museum door, de
+Jan Luykenstraat in, en was in de Van Baerlestraat.</p>
+<p>&ldquo;Alweer,&rdquo; mompelde hij opeens in de P. C. &ldquo;Zal
+deze verderfelijke gewoonte dan nooit uitgeroeid worden? Moeten de
+bacteriën steeds verder worden verspreid?&rdquo; Hij zette de
+tanden op elkaar. <span class="pagenum">[<a id="xd21e2439" href="#xd21e2439" name="xd21e2439">92</a>]</span></p>
+<p>&ldquo;Ik zal mijn leven wijden aan de bestrijding van dit
+kwaad.&rdquo;</p>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">II.</h3>
+</div>
+<div class="divBody">
+<p class="first">Dr. Hendrik van Bree, de nieuwe arts, stond voor het
+raam van zijn vriendelijk huisje, Brinklaan 12, waarvan zijn voorganger
+hem de huur had overgedaan. &ldquo;Maatje&rdquo; zat bij de tafel en
+stopte zijn kousen. Zij wilde dit werk aan niemand
+overlaten&mdash;waren het niet de kousen van haar Hendrik?</p>
+<p>Op eens sprong de jonge medicus op. Bezorgd, hoofdschuddend zag
+&ldquo;maatje&rdquo; hem na.</p>
+<p>Bij het hek namen een boereknecht en zijn meisje afscheid, en kusten
+elkaar, niet &eacute;&eacute;ns, maar herhaaldelijk. Hendrik trad op
+hen toe, groette vriendelijk, en bracht hun, in gematigde termen, het
+onhygiënische van hun daad onder de oogen. De man grinnikte, het
+meisje bloosde, maar ze eindigden met mopperend heen te gaan.</p>
+<p>Toen de jonge dokter dien avond de brug over liep, hoorde hij van
+alle kanten gemompel.</p>
+<p>&ldquo;We meugen onze maid niet soene, saat-ie!&rdquo;</p>
+<p>&ldquo;Wat goat &rsquo;t zoan an?&rdquo;</p>
+<p>&ldquo;Wie het &rsquo;t ooit zoo op de vieul heure
+speule?&rdquo;</p>
+<p>&ldquo;Wat &rsquo;n mal meroakel! Laat ie van &rsquo;t durp
+weggoan!&rdquo;</p>
+<p>Toen hij terug ging, stond er een groep opgeschoten kerels klaar,
+dreigend.</p>
+<p>&ldquo;Doar het je die bemoeial!&rdquo;</p>
+<p>&ldquo;Loat ie zich met z&rsquo;n aige soake bemoeie!&rdquo;</p>
+<p>Een steen vloog, en nog &eacute;&eacute;n. Zijn hoed werd geraakt,
+en viel af. Hij raapte hem kalm op. Er vlogen meer steenen. Met een gat
+in zijn hoofd kwam Hendrik thuis!</p>
+</div>
+</div>
+<div class="div2 chapter"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h3 class="main">III.</h3>
+</div>
+<div class="divBody">
+<p class="first">Een jong meisje had van het balcon bij burgemeester
+Vink den aanval met verontwaardiging aangezien. Het <span class="pagenum">[<a id="xd21e2475" href="#xd21e2475" name="xd21e2475">93</a>]</span>was Bertha Vink. Sympathie leidt tot
+liefde.... en verloving.</p>
+<hr class="tb">
+<p>De eerste dagen van zaligheid waren voorbij.</p>
+<p>Toch was het alsof er in Bertha iets onrustigs was gekomen. Eerst
+zag hij het niet; haar handdruk was warm en stevig als altijd, haar
+lach even teeder.</p>
+<p>Maar wat was er in haar oogen dat hem soms bevreesd maakte, dat
+alles niet was zooals het zijn moest?</p>
+<p>En op een goeden dag zeide zij het aan &ldquo;maatje.&rdquo; De oude
+mevrouw zuchtte; het verraste haar niet.</p>
+<p>Dien avond brak zij het nieuws aan haar zoon.</p>
+<p>Bertha was niet sterk genoeg gebleken in den strijd.</p>
+<p>Hendrik begreep. Hij waagde nog een laatste poging. Hij schreef een
+brief vol liefde en teederheid, maar ook vol vastheid. &ldquo;Je moet
+kiezen tusschen mij en de bacteriën,&rdquo; schreef hij.
+&ldquo;Hoe lief ik je ook heb, ik kan mijn beginsel niet verzaken, om
+geen ziektekiemen over te brengen als de hond en de vlieg.&rdquo; Hij
+deed zelf den brief op de bus.</p>
+<p>Hij wachtte. E&eacute;n dag, twee, drie dagen. Er kwam geen
+antwoord.</p>
+<p>Hij was vrij. Om den strijd te strijden dien hij gekozen had. Om
+zijn eenzamen, moeizamen weg te gaan. <span class="pagenum">[<a id="xd21e2497" href="#xd21e2497" name="xd21e2497">94</a>]</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="back">
+<div id="toc" class="div1 contents"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divHead">
+<h2 class="main">INHOUD</h2>
+<table class="tocList">
+<tr>
+<td class="tocDivNum"></td>
+<td class="tocDivTitle" colspan="5"></td>
+<td class="tocPageNum">Blz.</td>
+</tr>
+<tr>
+<td class="tocDivNum"></td>
+<td class="tocDivTitle" colspan="5"><span class="sc"><a href="#gigio"
+id="xd21e2509" name="xd21e2509">Van Gigio en Famulus. Romeinsche
+roman</a></span></td>
+<td class="tocPageNum">5</td>
+</tr>
+<tr>
+<td class="tocDivNum"></td>
+<td class="tocDivTitle" colspan="5"><span class="sc"><a href="#vondeling" id="xd21e2516" name="xd21e2516">De Vondeling. Historische
+roman</a></span></td>
+<td class="tocPageNum">16</td>
+</tr>
+<tr>
+<td class="tocDivNum"></td>
+<td class="tocDivTitle" colspan="5"><span class="sc"><a href="#mirelli"
+id="xd21e2523" name="xd21e2523">Cora Mirelli. Een verhaal van
+wereldlijke macht</a></span></td>
+<td class="tocPageNum">41</td>
+</tr>
+<tr>
+<td class="tocDivNum"></td>
+<td class="tocDivTitle" colspan="5"><span class="sc"><a href="#simpel"
+id="xd21e2530" name="xd21e2530">Jack Simpel. Een zeevaartkundige
+vertelling</a></span></td>
+<td class="tocPageNum">51</td>
+</tr>
+<tr>
+<td class="tocDivNum"></td>
+<td class="tocDivTitle" colspan="5"><span class="sc"><a href="#roodhuid" id="xd21e2537" name="xd21e2537">Roodhuid en Bleekgezicht.
+Indiaansche novelle</a></span></td>
+<td class="tocPageNum">68</td>
+</tr>
+<tr>
+<td class="tocDivNum"></td>
+<td class="tocDivTitle" colspan="5"><span class="sc"><a href="#zoetekauw" id="xd21e2544" name="xd21e2544">Prinses Zoetekauw. Een
+sprookje</a></span></td>
+<td class="tocPageNum">81</td>
+</tr>
+<tr>
+<td class="tocDivNum"></td>
+<td class="tocDivTitle" colspan="5"><span class="sc"><a href="#kus" id="xd21e2551" name="xd21e2551">De Kus. Tendenz-roman</a></span></td>
+<td class="tocPageNum">92</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="div1 cover"><span class="pagenum">[<a href="#toc">Inhoud</a>]</span>
+<div class="divBody">
+<p class="first"></p>
+<div class="figure xd21e2558width"><img src="images/achterkant.jpg"
+alt="Oorspronkelijke achterkant." width="503" height="720"></div>
+</div>
+</div>
+<div class="transcribernote">
+<h2 class="main">Colofon</h2>
+<h3 class="main">Verbeteringen</h3>
+<p>De volgende verbeteringen zijn aangebracht in de tekst:</p>
+<table class="correctiontable" summary="Overzicht van verbeteringen aangebracht in de tekst.">
+<tr>
+<th>Bladzijde</th>
+<th>Bron</th>
+<th>Verbetering</th>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e294">6</a>,
+<a class="pageref" href="#xd21e1138">32</a>, <a class="pageref" href="#xd21e1443">48</a>, <a class="pageref" href="#xd21e1480">51</a>,
+<a class="pageref" href="#xd21e1700">59</a>, <a class="pageref" href="#xd21e2028">75</a></td>
+<td class="width40 bottom">[<i>Niet in bron</i>]</td>
+<td class="width40 bottom">.</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e397">9</a></td>
+<td class="width40 bottom">.</td>
+<td class="width40 bottom">?</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e542">11</a>,
+<a class="pageref" href="#xd21e1048">28</a>, <a class="pageref" href="#xd21e1106">30</a>, <a class="pageref" href="#xd21e1143">32</a>,
+<a class="pageref" href="#xd21e1156">32</a>, <a class="pageref" href="#xd21e1208">36</a>, <a class="pageref" href="#xd21e1222">37</a>,
+<a class="pageref" href="#xd21e1448">49</a>, <a class="pageref" href="#xd21e1511">52</a>, <a class="pageref" href="#xd21e1519">52</a>,
+<a class="pageref" href="#xd21e1899">69</a>, <a class="pageref" href="#xd21e1904">69</a>, <a class="pageref" href="#xd21e1962">72</a>,
+<a class="pageref" href="#xd21e2156">81</a>, <a class="pageref" href="#xd21e2372">89</a></td>
+<td class="width40 bottom">[<i>Niet in bron</i>]</td>
+<td class="width40 bottom">,</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e594">12</a>,
+<a class="pageref" href="#xd21e629">13</a>, <a class="pageref" href="#xd21e669">13</a>, <a class="pageref" href="#xd21e904">22</a>,
+<a class="pageref" href="#xd21e1153">32</a>, <a class="pageref" href="#xd21e1438">48</a></td>
+<td class="width40 bottom">[<i>Niet in bron</i>]</td>
+<td class="width40 bottom">&rdquo;</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e926">23</a></td>
+<td class="width40 bottom">nadert reden</td>
+<td class="width40 bottom">nader treden</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1369">45</a></td>
+<td class="width40 bottom">.</td>
+<td class="width40 bottom">,</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1375">45</a></td>
+<td class="width40 bottom">Illyrie</td>
+<td class="width40 bottom">Illyrië</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1473">50</a></td>
+<td class="width40 bottom">pati&egrave;nten</td>
+<td class="width40 bottom">patiënten</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1644">56</a></td>
+<td class="width40 bottom">oorlogschip</td>
+<td class="width40 bottom">oorlogsschip</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1647">56</a></td>
+<td class="width40 bottom">personnage</td>
+<td class="width40 bottom">personage</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1783">62</a>,
+<a class="pageref" href="#xd21e1820">65</a></td>
+<td class="width40 bottom">[<i>Niet in bron</i>]</td>
+<td class="width40 bottom">&ldquo;</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1788">63</a></td>
+<td class="width40 bottom">;</td>
+<td class="width40 bottom">,</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1806">64</a></td>
+<td class="width40 bottom">,</td>
+<td class="width40 bottom">.</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1827">65</a></td>
+<td class="width40 bottom">?</td>
+<td class="width40 bottom">[<i>Verwijderd</i>]</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e1859">67</a></td>
+<td class="width40 bottom">personnages</td>
+<td class="width40 bottom">personages</td>
+</tr>
+<tr>
+<td class="width20"><a class="pageref" href="#xd21e2182">82</a></td>
+<td class="width40 bottom">der</td>
+<td class="width40 bottom">de</td>
+</tr>
+</table>
+</div>
+</div>
+
+</body>
+</html>
